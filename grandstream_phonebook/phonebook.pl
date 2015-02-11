@@ -14,7 +14,9 @@ use strict;
 use warnings;
 use LWP;
 use Excel::Writer::XLSX;
+use Encode qw(decode encode);
 use Data::Dumper;
+use utf8;
 
 my $UA = LWP::UserAgent->new();
 push @{ $UA->requests_redirectable }, 'POST';
@@ -73,6 +75,7 @@ my $extension_url
 
 my $extension_page = get_page($extension_url);
 
+#print "$extension_page\n";
 my @phone_book = $extension_page =~ /^\s*<li><a[^>]+display=(\d+)">([^&]+)\s+&/mg;
 
 my %phone_hash = @phone_book;
@@ -97,7 +100,8 @@ my $row = 1  ;
 foreach my $number (sort keys %phone_hash) {
     my $name = $phone_hash{$number};
     next if ($name eq "mingzi");
-    $worksheet->write($row,0,$name);
+    my $oct_string = decode('UTF8',$name);
+    $worksheet->write($row,0,$oct_string);
     $worksheet->write($row,1,$number);
     $row++;
     print $fh <<"TXT";
