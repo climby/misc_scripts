@@ -1,0 +1,1603 @@
+ID:1700
+raw:
+Your loan request was declined because the amount was higher than your maximum limit, you currently qualify for Ksh0.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1677
+raw:
+FY69LX810 Confirmed. Ksh50.00 sent to KELVIN MURAGE 0710921331 on 11/11/14 at 4:51 PM New M-PESA balance is Ksh133.00.Save & get a loan on Mshwari
+================================================================================
+result:11/11/14,4:51 PM,sent,50.00,0710921331,KELVIN MURAGE,133.00.
+================================================================================
+
+
+ID:1801
+raw:
+GE66MT478 Confirmed.on 23/12/14 at 5:12 PMWithdraw Ksh90.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh0.00.Save & get a loan on MShwari
+================================================================================
+result:23/12/14,5:12 PM,Withdraw,90.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,0.00.
+================================================================================
+
+
+ID:1735
+raw:
+GJ87JS619 Confirmed.You have received Ksh60.00 fromJOYCE MUGURE 254723929976on 30/1/15 at 1:14 PMNew M-PESA balance is Ksh60.00.Pay Bills via M-PESA
+================================================================================
+result:30/1/15,1:14 PM,received,60.00,254723929976,JOYCE MUGURE,60.00.
+================================================================================
+
+
+ID:1720
+raw:
+FV05XE350 confirmed. You bought Ksh20.00 of airtime on 16/10/14 at 9:41 AM
+New M-PESA balance is Ksh6.00.Save & earn interest on MShwari
+================================================================================
+result:16/10/14,9:41 AM,bought,20.00,,airtime,6.00.
+================================================================================
+
+
+ID:1674
+raw:
+FY79BS812 Confirmed.
+on 12/11/14 at 11:25 AM
+Give Ksh750.00 cash to Bernice Comms Pride Inn Westlands Rd Near Soin Arcade Agg
+New M-PESA balance is Ksh750.00
+================================================================================
+result:12/11/14,11:25 AM,Give,750.00,,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade Agg,750.00
+================================================================================
+
+
+ID:1648
+raw:
+GA73WU782 Confirmed. Ksh100.00 sent to ESTHER NDONGA 0723536034 on 26/11/14 at 1:47 PM New M-PESA balance is Ksh16.00.Save & get a loan on Mshwari
+================================================================================
+result:26/11/14,1:47 PM,sent,100.00,0723536034,ESTHER NDONGA,16.00.
+================================================================================
+
+
+ID:1698
+raw:
+FX74BZ054 Confirmed.on 5/11/14 at 9:26 AMWithdraw Ksh80.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh2.00.Save & get a loan on MShwari
+================================================================================
+result:5/11/14,9:26 AM,Withdraw,80.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,2.00.
+================================================================================
+
+
+ID:1798
+raw:
+GE80VZ874 Confirmed.on 24/12/14 at 2:38 PMWithdraw Ksh170.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh3.00.Save & get a loan on MShwari
+================================================================================
+result:24/12/14,2:38 PM,Withdraw,170.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,3.00.
+================================================================================
+
+
+ID:1659
+raw:
+GA11YL594 Confirmed.on 21/11/14 at 6:40 PMWithdraw Ksh100.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh10.00.Save & get a loan on MShwari
+================================================================================
+result:21/11/14,6:40 PM,Withdraw,100.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,10.00.
+================================================================================
+
+
+ID:1795
+raw:
+GF15GX851 confirmed. You bought Ksh6.00 of airtime on 26/12/14 at 6:59 PM
+New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
+================================================================================
+result:26/12/14,6:59 PM,bought,6.00,,airtime,0.00.
+================================================================================
+
+
+ID:1619
+raw:
+GD76VC918 Confirmed.You have received Ksh110.00 fromKELVIN KIMANI 254717674080on 17/12/14 at 3:30 PMNew M-PESA balance is Ksh110.00.Save money on M-Shwari 
+================================================================================
+result:17/12/14,3:30 PM,received,110.00,254717674080,KELVIN KIMANI,110.00.
+================================================================================
+
+
+ID:1632
+raw:
+GC93KS972 Confirmed. You have repaid loan Ksh120.00 from your M-PESA account on 11/12/14 at 5:01 PM. M-PESA balance is Ksh30.00. Your loan is repaid in full, and the overpayment has been moved to your Savings Account. New Savings balance is Ksh13.76.
+================================================================================
+result:11/12/14,5:01 PM,loan,120.00,,your M-PESA account,30.00.
+================================================================================
+
+
+ID:1687
+raw:
+FY25DV316 Confirmed. Ksh330.00 sent to FELISTA KARANJA 0701448176 on 8/11/14 at 3:19 PM New M-PESA balance is Ksh21.00.Save & get a loan on Mshwari
+================================================================================
+result:8/11/14,3:19 PM,sent,330.00,0701448176,FELISTA KARANJA,21.00.
+================================================================================
+
+
+ID:1621
+raw:
+GD04CO900 Confirmed.on 12/12/14 at 12:46 PMWithdraw Ksh440.00 from 308030 - Farsame Comm Koinange Street- NairobiNew M-PESA balance is Ksh3.00.Save & get a loan on MShwari
+================================================================================
+result:12/12/14,12:46 PM,Withdraw,440.00,308030,Farsame Comm Koinange Street- NairobiNew M-PESA ,3.00.
+================================================================================
+
+
+ID:1681
+raw:
+FY57WP655 Confirmed. Ksh1,200.00 sent to SAMWEL MWENDA 0720695828 on 10/11/14 at 7:43 PM New M-PESA balance is Ksh295.00.Save & get a loan on Mshwari
+================================================================================
+result:10/11/14,7:43 PM,sent,1,200.00,0720695828,SAMWEL MWENDA,295.00.
+================================================================================
+
+
+ID:1646
+raw:
+GA74BA573 confirmed. You bought Ksh15.00 of airtime for 0723536034 on 26/11/14 at 2:03 PM
+New M-PESA balance is Ksh1.00
+================================================================================
+result:26/11/14,2:03 PM,bought,15.00,,airtime for 0723536034,1.00
+================================================================================
+
+
+ID:1768
+raw:
+FW53CG907 Confirmed.on 27/10/14 at 2:49 PMWithdraw Ksh1,000.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh10.00.Save & get a loan on MShwari
+================================================================================
+result:27/10/14,2:49 PM,Withdraw,1,000.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,10.00.
+================================================================================
+
+
+ID:1750
+raw:
+GH35FR552 Confirmed. Ksh20.00 sent to KPLC for account 123456-05 on 11/1/15 at 10:29 PMNew M-PESA balance is Ksh30.00.Dial *234*6# for M-Shwari 
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1693
+raw:
+FY22QK777 Confirmed.
+on 8/11/14 at 12:43 PM
+Give Ksh600.00 cash to Mobilewise Techno Mtwapa Near Peluma House
+New M-PESA balance is Ksh647.00
+================================================================================
+result:8/11/14,12:43 PM,Give,600.00,,Mobilewise Techno Mtwapa Near Peluma House,647.00
+================================================================================
+
+
+ID:1789
+raw:
+GG51WW600 Confirmed. Ksh210.00 sent to KELVIN KIMANI 0717674080 on 5/1/15 at 8:19 PM New M-PESA balance is Ksh6.00.Pay with M-PESA and win!
+================================================================================
+result:5/1/15,8:19 PM,sent,210.00,0717674080,KELVIN KIMANI,6.00.
+================================================================================
+
+
+ID:1785
+raw:
+Failed. 
+Not enough money in your M-PESA account to send Ksh350.00. You must be able to pay the transaction fee as well as the requested amount.
+Your M-PESA balance is Ksh360.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1739
+raw:
+GI71OZ439 Confirmed.on 21/1/15 at 6:59 PMWithdraw Ksh960.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh6.00.Dial *234*6# for M-Shwari
+================================================================================
+result:21/1/15,6:59 PM,Withdraw,960.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,6.00.
+================================================================================
+
+
+ID:1625
+raw:
+GD02KN966 confirmed. You bought Ksh60.00 of airtime on 12/12/14 at 10:36 AM
+New M-PESA balance is Ksh540.00.Save & earn interest on MShwari
+================================================================================
+result:12/12/14,10:36 AM,bought,60.00,,airtime,540.00.
+================================================================================
+
+
+ID:1738
+raw:
+GJ65NS054 Confirmed.You have received Ksh120.00 fromJOYCE MUGURE 254723929976on 28/1/15 at 7:11 PMNew M-PESA balance is Ksh126.00.Pay Bills via M-PESA
+================================================================================
+result:28/1/15,7:11 PM,received,120.00,254723929976,JOYCE MUGURE,126.00.
+================================================================================
+
+
+ID:1786
+raw:
+GG66OO779 Confirmed. Ksh1,600.00 sent to KELVIN KIMANI 0717674080 on 6/1/15 at 8:26 PM New M-PESA balance is Ksh360.00.Pay with M-PESA and win!
+================================================================================
+result:6/1/15,8:26 PM,sent,1,600.00,0717674080,KELVIN KIMANI,360.00.
+================================================================================
+
+
+ID:1754
+raw:
+GH34XQ747 Confirmed.on 11/1/15 at 10:20 PMGive Ksh600.00 cash to PEP Nakumatt Prestige EXTNew M-PESA balance is Ksh605.00.Buy goods with M-PESA.
+================================================================================
+result:11/1/15,10:20 PM,Give,600.00,,PEP Nakumatt Prestige EXT,605.00.
+================================================================================
+
+
+ID:1669
+raw:
+FZ13TA147 Confirmed.on 14/11/14 at 5:21 PMWithdraw Ksh800.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh3.00.Save & get a loan on MShwari
+================================================================================
+result:14/11/14,5:21 PM,Withdraw,800.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,3.00.
+================================================================================
+
+
+ID:1627
+raw:
+GD01XP171 Confirmed.You have received Ksh500.00 fromJOYCE MUGURE 254723929976on 12/12/14 at 10:20 AMNew M-PESA balance is Ksh500.00.Save money on M-Shwari 
+================================================================================
+result:12/12/14,10:20 AM,received,500.00,254723929976,JOYCE MUGURE,500.00.
+================================================================================
+
+
+ID:1773
+raw:
+FU84EW817 Confirmed.You have received Ksh130.00 fromJOYCE MUGURE 254723929976on 14/10/14 at 4:32 PMNew M-PESA balance is Ksh133.00.Save money on M-Shwari 
+================================================================================
+result:14/10/14,4:32 PM,received,130.00,254723929976,JOYCE MUGURE,133.00.
+================================================================================
+
+
+ID:1689
+raw:
+FY24GP741 Confirmed. Ksh1,530.00 sent to JOYCE MUGURE 0723929976 on 8/11/14 at 2:23 PM New M-PESA balance is Ksh12.00.Save & get a loan on Mshwari
+================================================================================
+result:8/11/14,2:23 PM,sent,1,530.00,0723929976,JOYCE MUGURE,12.00.
+================================================================================
+
+
+ID:1630
+raw:
+GC95HE475 confirmed. You bought Ksh20.00 of airtime on 11/12/14 at 6:39 PM
+New M-PESA balance is Ksh9.00.Save & earn interest on MShwari
+================================================================================
+result:11/12/14,6:39 PM,bought,20.00,,airtime,9.00.
+================================================================================
+
+
+ID:1614
+raw:
+GE02BN036 Confirmed.on 19/12/14 at 10:45 AMWithdraw Ksh140.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh3.00.Save & get a loan on MShwari
+================================================================================
+result:19/12/14,10:45 AM,Withdraw,140.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,3.00.
+================================================================================
+
+
+ID:1638
+raw:
+GB65RN455 confirmed. You bought Ksh13.00 of airtime on 2/12/14 at 9:39 PM
+New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
+================================================================================
+result:2/12/14,9:39 PM,bought,13.00,,airtime,0.00.
+================================================================================
+
+
+ID:1743
+raw:
+GI46TY707 confirmed. You bought Ksh20.00 of airtime on 19/1/15 at 9:20 PM
+New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
+================================================================================
+result:19/1/15,9:20 PM,bought,20.00,,airtime,0.00.
+================================================================================
+
+
+ID:1665
+raw:
+FZ51AG586 Confirmed.on 17/11/14 at 1:07 PMWithdraw Ksh120.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh6.00.Save & get a loan on MShwari
+================================================================================
+result:17/11/14,1:07 PM,Withdraw,120.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,6.00.
+================================================================================
+
+
+ID:1654
+raw:
+GA40IO900 Confirmed.
+on 23/11/14 at 9:36 PM
+Give Ksh150.00 cash to PEP Nakumatt Prestige EXT
+New M-PESA balance is Ksh150.00
+================================================================================
+result:23/11/14,9:36 PM,Give,150.00,,PEP Nakumatt Prestige EXT,150.00
+================================================================================
+
+
+ID:1731
+raw:
+Failed. You do not have enough money in your M-PESA account to withdraw Ksh100.00 from 22357. You must be able to pay the transaction fee as well as the requested amount.
+Your M-PESA balance is Ksh13.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1657
+raw:
+GA18AB886 Confirmed.You have received Ksh4,100.00 fromDIANA MURAGE 254722363005on 22/11/14 at 10:24 AMNew M-PESA balance is Ksh4,100.00.Save money on M-Shwari 
+================================================================================
+result:22/11/14,10:24 AM,received,4,100.00,254722363005,DIANA MURAGE,4,100.00.
+================================================================================
+
+
+ID:1782
+raw:
+GG73XX537 confirmed. You bought Ksh9.00 of airtime for 0701408757 on 7/1/15 at 1:27 PM
+New M-PESA balance is Ksh0.00
+================================================================================
+result:7/1/15,1:27 PM,bought,9.00,,airtime for 0701408757,0.00
+================================================================================
+
+
+ID:1675
+raw:
+FY76EC189 confirmed. You bought Ksh83.00 of airtime on 12/11/14 at 8:19 AM
+New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
+================================================================================
+result:12/11/14,8:19 AM,bought,83.00,,airtime,0.00.
+================================================================================
+
+
+ID:1615
+raw:
+GE01YP836 Confirmed.You have received Ksh170.00 fromJOYCE MUGURE 254723929976on 19/12/14 at 10:39 AMNew M-PESA balance is Ksh170.00.Save money on M-Shwari 
+================================================================================
+result:19/12/14,10:39 AM,received,170.00,254723929976,JOYCE MUGURE,170.00.
+================================================================================
+
+
+ID:1766
+raw:
+FX84ZX353 Confirmed.on 5/11/14 at 8:17 PMWithdraw Ksh100.00 from 126024 - Naivas Westlands West End Plaza NairobiNew M-PESA balance is Ksh2.00.Save & get a loan on MShwari
+================================================================================
+result:5/11/14,8:17 PM,Withdraw,100.00,126024,Naivas Westlands West End Plaza NairobiNew M-PESA ,2.00.
+================================================================================
+
+
+ID:1732
+raw:
+Failed. You do not have enough money in your M-PESA account for your balance to be sent. 
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1746
+raw:
+The amount was entered incorrectly.  Please try again.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1737
+raw:
+GJ68IX257 Confirmed.on 28/1/15 at 9:55 PMWithdraw Ksh100.00 from 432604 - PEP Nakumatt Prestige EXTNew M-PESA balance is Ksh16.00.Dial *234*6# for M-Shwari
+================================================================================
+result:28/1/15,9:55 PM,Withdraw,100.00,432604,PEP Nakumatt Prestige EXTNew M-PESA ,16.00.
+================================================================================
+
+
+ID:1764
+raw:
+FY24EX030 Confirmed.
+on 8/11/14 at 2:19 PM
+Give Ksh1,500.00 cash to Extreme Connections Shelter Villa
+New M-PESA balance is Ksh1,582.00
+================================================================================
+result:8/11/14,2:19 PM,Give,1,500.00,,Extreme Connections Shelter Villa,1,582.00
+================================================================================
+
+
+ID:1676
+raw:
+FY74JD552 confirmed. You bought Ksh50.00 of airtime on 11/11/14 at 9:41 PM
+New M-PESA balance is Ksh83.00.Save & earn interest on MShwari
+================================================================================
+result:11/11/14,9:41 PM,bought,50.00,,airtime,83.00.
+================================================================================
+
+
+ID:1725
+raw:
+GL13WI773 confirmed. You bought Ksh130.00 of airtime on 7/2/15 at 6:48 PM
+New M-PESA balance is Ksh0.00.
+================================================================================
+result:7/2/15,6:48 PM,bought,130.00,,airtime,0.00.
+================================================================================
+
+
+ID:1753
+raw:
+GH34ZQ052. Dear Customer, this code is your SECRET (NI SIRI YAKO). Use code 772569 to withdraw money from your M-PESA account within 10 Minutes at any 555555 - AGENT ATM.  Your balance is Ksh605.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1718
+raw:
+FV12YN475 Confirmed.You have received Ksh2,027.00 fromDiana MURAGE 254710525004on 16/10/14 at 5:31 PMNew M-PESA balance is Ksh2,028.00.Save money on M-Shwari 
+================================================================================
+result:16/10/14,5:31 PM,received,2,027.00,254710525004,Diana MURAGE,2,028.00.
+================================================================================
+
+
+ID:1776
+raw:
+Failed. You do not have enough money in your M-PESA account to withdraw Ksh110.00 from 22357. You must be able to pay the transaction fee as well as the requested amount.
+Your M-PESA balance is Ksh123.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1660
+raw:
+GA11RR633 Confirmed.You have received Ksh120.00 fromJOYCE MUGURE 254723929976on 21/11/14 at 6:28 PMNew M-PESA balance is Ksh120.00.Save money on M-Shwari 
+================================================================================
+result:21/11/14,6:28 PM,received,120.00,254723929976,JOYCE MUGURE,120.00.
+================================================================================
+
+
+ID:1652
+raw:
+GA64VD653 confirmed. You bought Ksh19.00 of airtime on 25/11/14 at 6:24 PM
+New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
+================================================================================
+result:25/11/14,6:24 PM,bought,19.00,,airtime,0.00.
+================================================================================
+
+
+ID:1703
+raw:
+FX20SH443 confirmed. Loan request at M-Shwari is approved. New M-PESA balance is Ksh104.00. Your loan of Ksh107.50 is due on 30/11/2014.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1780
+raw:
+Failed. You do not have enough money in your M-PESA account to pay Ksh2,500.00 to Safaricom I&M Visa Card.
+Your M-PESA balance is Ksh2,500.00.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1797
+raw:
+GF12YI614 Confirmed.You have received Ksh230.00 fromJOYCE MUGURE 254723929976on 26/12/14 at 4:13 PMNew M-PESA balance is Ksh233.00.Save money on M-Shwari 
+================================================================================
+result:26/12/14,4:13 PM,received,230.00,254723929976,JOYCE MUGURE,233.00.
+================================================================================
+
+
+ID:1792
+raw:
+GG14XP871 Confirmed.You have received Ksh130.00 fromJOYCE MUGURE 254723929976on 3/1/15 at 9:01 AMNew M-PESA balance is Ksh130.00.Pay Bills via M-PESA
+================================================================================
+result:3/1/15,9:01 AM,received,130.00,254723929976,JOYCE MUGURE,130.00.
+================================================================================
+
+
+ID:1709
+raw:
+FW64TB681 confirmed. You bought Ksh300.00 of airtime on 28/10/14 at 1:06 PM
+New M-PESA balance is Ksh6,010.00.Save & earn interest on MShwari
+================================================================================
+result:28/10/14,1:06 PM,bought,300.00,,airtime,6,010.00.
+================================================================================
+
+
+ID:1772
+raw:
+FW17XI914 Confirmed.You have received Ksh500.00 fromKELVIN MURAGE 254710921331on 24/10/14 at 5:44 PMNew M-PESA balance is Ksh504.00.Save money on M-Shwari 
+================================================================================
+result:24/10/14,5:44 PM,received,500.00,254710921331,KELVIN MURAGE,504.00.
+================================================================================
+
+
+ID:1670
+raw:
+FZ12QS948 Confirmed.You have received Ksh830.00 fromSAMWEL MWENDA 254720695828on 14/11/14 at 4:16 PMNew M-PESA balance is Ksh830.00.Save money on M-Shwari 
+================================================================================
+result:14/11/14,4:16 PM,received,830.00,254720695828,SAMWEL MWENDA,830.00.
+================================================================================
+
+
+ID:1705
+raw:
+FW68DA407 Confirmed.on 28/10/14 at 5:07 PMWithdraw Ksh4,750.00 from 126024 - Naivas Westlands West End Plaza NairobiNew M-PESA balance is Ksh4.00.Save & get a loan on MShwari
+================================================================================
+result:28/10/14,5:07 PM,Withdraw,4,750.00,126024,Naivas Westlands West End Plaza NairobiNew M-PESA ,4.00.
+================================================================================
+
+
+ID:1656
+raw:
+GA18ET525 Confirmed.on 22/11/14 at 10:39 AMWithdraw Ksh4,000.00 from 068009 - Uchumi Ngong HyperNew M-PESA balance is Ksh34.00.Save & get a loan on MShwari
+================================================================================
+result:22/11/14,10:39 AM,Withdraw,4,000.00,068009,Uchumi Ngong HyperNew M-PESA ,34.00.
+================================================================================
+
+
+ID:1763
+raw:
+Failed. 
+Not enough money in your M-PESA account to send Ksh1,560.00. You must be able to pay the transaction fee as well as the requested amount.
+Your M-PESA balance is Ksh1,582.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1664
+raw:
+FZ68XF991 Confirmed.You have received Ksh160.00 fromJOYCE MUGURE 254723929976on 18/11/14 at 5:34 PMNew M-PESA balance is Ksh166.00.Save money on M-Shwari 
+================================================================================
+result:18/11/14,5:34 PM,received,160.00,254723929976,JOYCE MUGURE,166.00.
+================================================================================
+
+
+ID:1745
+raw:
+Failed. You do not have enough money in your M-PESA account to withdraw Ksh120.00 from 22357. You must be able to pay the transaction fee as well as the requested amount.
+Your M-PESA balance is Ksh130.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1790
+raw:
+GG51PI418 Confirmed.You have received Ksh227.00 fromDiana MURAGE 254710525004on 5/1/15 at 7:38 PMNew M-PESA balance is Ksh227.00.Pay Bills via M-PESA
+================================================================================
+result:5/1/15,7:38 PM,received,227.00,254710525004,Diana MURAGE,227.00.
+================================================================================
+
+
+ID:1748
+raw:
+GH34ZT007 confirmed. You bought Ksh10.00 of airtime on 11/1/15 at 10:37 PM
+New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
+================================================================================
+result:11/1/15,10:37 PM,bought,10.00,,airtime,0.00.
+================================================================================
+
+
+ID:1658
+raw:
+GA14TF194 confirmed. You bought Ksh10.00 of airtime on 21/11/14 at 10:14 PM
+New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
+================================================================================
+result:21/11/14,10:14 PM,bought,10.00,,airtime,0.00.
+================================================================================
+
+
+ID:1759
+raw:
+GG91GD244 confirmed. You bought Ksh100.00 of airtime on 8/1/15 at 5:29 PM
+New M-PESA balance is Ksh7.00.Transact on M-PESA and win!
+================================================================================
+result:8/1/15,5:29 PM,bought,100.00,,airtime,7.00.
+================================================================================
+
+
+ID:1684
+raw:
+M-PESA has received your request but is experiencing some delays. Please wait at least 10 minutes for a response before retrying your transaction.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1643
+raw:
+GA96PD215 Confirmed.Your M-PESA balance was Ksh0.00on 28/11/14 at 8:55 AM.Safaricom only calls you from 0722000000 
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1690
+raw:
+Failed. 
+Not enough money in your M-PESA account to send Ksh1,552.00. You must be able to pay the transaction fee as well as the requested amount.
+Your M-PESA balance is Ksh1,582.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1796
+raw:
+GF13UI911 Confirmed.on 26/12/14 at 5:23 PMWithdraw Ksh200.00 from 161639 - Onshore Connectors Choma Inn Caltex RoadNew M-PESA balance is Ksh6.00.Save & get a loan on MShwari
+================================================================================
+result:26/12/14,5:23 PM,Withdraw,200.00,161639,Onshore Connectors Choma Inn Caltex RoadNew M-PESA ,6.00.
+================================================================================
+
+
+ID:1671
+raw:
+FY79JB489 Confirmed. Ksh850.00 sent to Safaricom I&M Visa Card for account 4054570200132388 on 12/11/14 at 11:44 AM
+New M-PESA balance is Ksh0.00.
+================================================================================
+result:12/11/14,11:44 AM,sent,850.00,4054570200132388,Safaricom I&M Visa Card for account,0.00.
+================================================================================
+
+
+ID:1635
+raw:
+GC04RQ259 Confirmed. Ksh1,030.00 sent to JOYCE MUGURE 0723929976 on 5/12/14 at 4:32 PM New M-PESA balance is Ksh45.00.Save & get a loan on Mshwari
+================================================================================
+result:5/12/14,4:32 PM,sent,1,030.00,0723929976,JOYCE MUGURE,45.00.
+================================================================================
+
+
+ID:1668
+raw:
+FZ16PG607 Confirmed.You have received Ksh1,527.00 fromDiana MURAGE 254710525004on 14/11/14 at 7:52 PMNew M-PESA balance is Ksh1,530.00.Save money on M-Shwari 
+================================================================================
+result:14/11/14,7:52 PM,received,1,527.00,254710525004,Diana MURAGE,1,530.00.
+================================================================================
+
+
+ID:1715
+raw:
+FV76RP302 Confirmed.You have received Ksh130.00 fromJOYCE MUGURE 254723929976on 21/10/14 at 3:19 PMNew M-PESA balance is Ksh131.00.Save money on M-Shwari 
+================================================================================
+result:21/10/14,3:19 PM,received,130.00,254723929976,JOYCE MUGURE,131.00.
+================================================================================
+
+
+ID:1722
+raw:
+FU97VB548 Confirmed.You have received Ksh1,100.00 fromJAMES MBURU 254723752381on 15/10/14 at 4:26 PMNew M-PESA balance is Ksh1,103.00.Save money on M-Shwari 
+================================================================================
+result:15/10/14,4:26 PM,received,1,100.00,254723752381,JAMES MBURU,1,103.00.
+================================================================================
+
+
+ID:1778
+raw:
+GK01DO284 Confirmed.on 31/1/15 at 12:51 PMWithdraw Ksh420.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh3.00.Dial *234*6# for M-Shwari
+================================================================================
+result:31/1/15,12:51 PM,Withdraw,420.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,3.00.
+================================================================================
+
+
+ID:1692
+raw:
+FY22RM177 Confirmed. Ksh550.00 sent to BEATRICE WANJIRU 0718790172 on 8/11/14 at 12:45 PM New M-PESA balance is Ksh82.00.Save & get a loan on Mshwari
+================================================================================
+result:8/11/14,12:45 PM,sent,550.00,0718790172,BEATRICE WANJIRU,82.00.
+================================================================================
+
+
+ID:1667
+raw:
+FZ18IE105 Confirmed.on 14/11/14 at 10:20 PMWithdraw Ksh1,500.00 from 044808 - Yu-Tech Enterprises Simla House Tom Mboya Street NairobiNew M-PESA balance is Ksh3.00.Save & get a loan on MShwari
+================================================================================
+result:14/11/14,10:20 PM,Withdraw,1,500.00,044808,Yu-Tech Enterprises Simla House Tom Mboya Street NairobiNew M-PESA ,3.00.
+================================================================================
+
+
+ID:1710
+raw:
+FW64DX586 Confirmed.You have received Ksh6,300.00 fromGERALD MACHIRA 254722239823on 28/10/14 at 12:22 PMNew M-PESA balance is Ksh6,310.00.Save money on M-Shwari 
+================================================================================
+result:28/10/14,12:22 PM,received,6,300.00,254722239823,GERALD MACHIRA,6,310.00.
+================================================================================
+
+
+ID:1678
+raw:
+FY58QW473 Confirmed. Your loan limit is Ksh100.00.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1633
+raw:
+GC93OZ262 Confirmed.
+on 11/12/14 at 4:59 PM
+Give Ksh150.00 cash to Bernice Comms Pride Inn Westlands Rd Near Soin Arcade Agg
+New M-PESA balance is Ksh150.00
+================================================================================
+result:11/12/14,4:59 PM,Give,150.00,,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade Agg,150.00
+================================================================================
+
+
+ID:1800
+raw:
+Failed. There is not enough money in your M-PESA account to buy Ksh5.00 airtime. Your M-PESA balance is Ksh0.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1717
+raw:
+FV13TH388 Confirmed.on 16/10/14 at 6:14 PMWithdraw Ksh2,000.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh1.00.Save & get a loan on MShwari
+================================================================================
+result:16/10/14,6:14 PM,Withdraw,2,000.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,1.00.
+================================================================================
+
+
+ID:1662
+raw:
+FZ69JA317 Confirmed.on 18/11/14 at 5:52 PMWithdraw Ksh100.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh6.00.Save & get a loan on MShwari
+================================================================================
+result:18/11/14,5:52 PM,Withdraw,100.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,6.00.
+================================================================================
+
+
+ID:1760
+raw:
+GG91GD244 confirmed. You bought Ksh100.00 of airtime on 8/1/15 at 5:29 PM
+New M-PESA balance is Ksh7.00.Transact on M-PESA and win!
+================================================================================
+result:8/1/15,5:29 PM,bought,100.00,,airtime,7.00.
+================================================================================
+
+
+ID:1634
+raw:
+GC04QE213 confirmed. You bought Ksh45.00 of airtime on 5/12/14 at 4:33 PM
+New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
+================================================================================
+result:5/12/14,4:33 PM,bought,45.00,,airtime,0.00.
+================================================================================
+
+
+ID:1769
+raw:
+FW52YG846 Confirmed.You have received Ksh1,027.00 fromDiana MURAGE 254710525004on 27/10/14 at 2:38 PMNew M-PESA balance is Ksh1,037.00.Save money on M-Shwari 
+================================================================================
+result:27/10/14,2:38 PM,received,1,027.00,254710525004,Diana MURAGE,1,037.00.
+================================================================================
+
+
+ID:1706
+raw:
+FW66TW050 confirmed. You bought Ksh100.00 of airtime on 28/10/14 at 3:37 PM
+New M-PESA balance is Ksh4,820.00.Save & earn interest on MShwari
+================================================================================
+result:28/10/14,3:37 PM,bought,100.00,,airtime,4,820.00.
+================================================================================
+
+
+ID:1788
+raw:
+GG52JU808 confirmed. You bought Ksh6.00 of airtime on 5/1/15 at 8:52 PM
+New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
+================================================================================
+result:5/1/15,8:52 PM,bought,6.00,,airtime,0.00.
+================================================================================
+
+
+ID:1661
+raw:
+Failed. You do not have enough money in your M-PESA account for your balance to be sent. 
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1728
+raw:
+GK52YH890 Confirmed.on 3/2/15 at 8:00 PMWithdraw Ksh100.00 from 126024 - Naivas Westlands West End Plaza NairobiNew M-PESA balance is Ksh0.00.Dial *234*6# for M-Shwari
+================================================================================
+result:3/2/15,8:00 PM,Withdraw,100.00,126024,Naivas Westlands West End Plaza NairobiNew M-PESA ,0.00.
+================================================================================
+
+
+ID:1793
+raw:
+GF35HW347 confirmed. You bought Ksh60.00 of airtime on 28/12/14 at 2:02 PM
+New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
+================================================================================
+result:28/12/14,2:02 PM,bought,60.00,,airtime,0.00.
+================================================================================
+
+
+ID:1701
+raw:
+FX44KS199 Confirmed.
+on 3/11/14 at 9:33 AM
+Give Ksh100.00 cash to Elmi Holdings Deeno Enter-Services Huruma Nairobi
+New M-PESA balance is Ksh154.00
+================================================================================
+result:3/11/14,9:33 AM,Give,100.00,,Elmi Holdings Deeno Enter-Services Huruma Nairobi,154.00
+================================================================================
+
+
+ID:1637
+raw:
+GB73FI603 Confirmed.You have received Ksh227.00 fromMORRIS THUKU 254721621406on 3/12/14 at 2:45 PMNew M-PESA balance is Ksh227.00.Save money on M-Shwari 
+================================================================================
+result:3/12/14,2:45 PM,received,227.00,254721621406,MORRIS THUKU,227.00.
+================================================================================
+
+
+ID:1645
+raw:
+GA74NC677 Confirmed.You have received Ksh100.00 fromJOYCE MUGURE 254723929976on 26/11/14 at 2:32 PMNew M-PESA balance is Ksh101.00.Save money on M-Shwari 
+================================================================================
+result:26/11/14,2:32 PM,received,100.00,254723929976,JOYCE MUGURE,101.00.
+================================================================================
+
+
+ID:1673
+raw:
+FY79DL776 Confirmed. Your M-Shwari loan request will be processed shortly.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1794
+raw:
+GF35LF958 Confirmed.You have received Ksh60.00 fromJOYCE MUGURE 254723929976on 28/12/14 at 2:00 PMNew M-PESA balance is Ksh60.00.Save money on M-Shwari 
+================================================================================
+result:28/12/14,2:00 PM,received,60.00,254723929976,JOYCE MUGURE,60.00.
+================================================================================
+
+
+ID:1623
+raw:
+GD04EY736 Confirmed.
+on 12/12/14 at 12:42 PM
+Give Ksh1,500.00 cash to Farsame Comm Koinange Street- Nairobi
+New M-PESA balance is Ksh2,040.00
+================================================================================
+result:12/12/14,12:42 PM,Give,1,500.00,,Farsame Comm Koinange Street- Nairobi,2,040.00
+================================================================================
+
+
+ID:1757
+raw:
+GH18JD177 Confirmed.on 10/1/15 at 4:53 PMGive Ksh450.00 cash to Phones Paradise Woodvale GrooveNew M-PESA balance is Ksh457.00.Buy goods with M-PESA.
+================================================================================
+result:10/1/15,4:53 PM,Give,450.00,,Phones Paradise Woodvale Groove,457.00.
+================================================================================
+
+
+ID:1755
+raw:
+GH18GI069 Confirmed. Ksh200.00 sent to KELVIN KIMANI 0717674080 on 10/1/15 at 5:04 PM New M-PESA balance is Ksh5.00.Pay with M-PESA and win!
+================================================================================
+result:10/1/15,5:04 PM,sent,200.00,0717674080,KELVIN KIMANI,5.00.
+================================================================================
+
+
+ID:1666
+raw:
+FZ50XI933 Confirmed.You have received Ksh150.00 fromKELVIN KIMANI 254717674080on 17/11/14 at 12:57 PMNew M-PESA balance is Ksh153.00.Save money on M-Shwari 
+================================================================================
+result:17/11/14,12:57 PM,received,150.00,254717674080,KELVIN KIMANI,153.00.
+================================================================================
+
+
+ID:1721
+raw:
+FU98DW584 Confirmed.on 15/10/14 at 4:46 PMWithdraw Ksh1,050.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh26.00.Save & get a loan on MShwari
+================================================================================
+result:15/10/14,4:46 PM,Withdraw,1,050.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,26.00.
+================================================================================
+
+
+ID:1682
+raw:
+FY57UC951 Confirmed.Your M-PESA balance was Ksh1,520.00on 10/11/14 at 7:41 PM.Safaricom only calls you from 0722000000 
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1784
+raw:
+GG66TD733 Confirmed. Ksh320.00 sent to JOYCE MUGURE 0723929976 on 6/1/15 at 8:33 PM New M-PESA balance is Ksh29.00.Pay with M-PESA and win!
+================================================================================
+result:6/1/15,8:33 PM,sent,320.00,0723929976,JOYCE MUGURE,29.00.
+================================================================================
+
+
+ID:1697
+raw:
+FX84SH618 Confirmed.You have received Ksh110.00 fromJOYCE MUGURE 254723929976on 5/11/14 at 7:59 PMNew M-PESA balance is Ksh112.00.Save money on M-Shwari 
+================================================================================
+result:5/11/14,7:59 PM,received,110.00,254723929976,JOYCE MUGURE,112.00.
+================================================================================
+
+
+ID:1694
+raw:
+FY03GX262 Confirmed.on 7/11/14 at 8:48 AMWithdraw Ksh90.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh47.00.Save & get a loan on MShwari
+================================================================================
+result:7/11/14,8:48 AM,Withdraw,90.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,47.00.
+================================================================================
+
+
+ID:1741
+raw:
+GI57JR860 Confirmed.on 20/1/15 at 6:08 PMWithdraw Ksh120.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh13.00.Dial *234*6# for M-Shwari
+================================================================================
+result:20/1/15,6:08 PM,Withdraw,120.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,13.00.
+================================================================================
+
+
+ID:1767
+raw:
+FX45VH784 Confirmed.on 3/11/14 at 11:01 AMWithdraw Ksh120.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh7.00.Save & get a loan on MShwari
+================================================================================
+result:3/11/14,11:01 AM,Withdraw,120.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,7.00.
+================================================================================
+
+
+ID:1679
+raw:
+FY58BK441 Confirmed. You have repaid loan Ksh8.00 from your M-PESA account on 10/11/14 at 7:50 PM. M-PESA balance is Ksh187.00. Your loan is repaid in full, and the overpayment has been moved to your Savings Account. New Savings balance is Ksh1.26.
+================================================================================
+result:10/11/14,7:50 PM,loan,8.00,,your M-PESA account,187.00.
+================================================================================
+
+
+ID:1770
+raw:
+FW40ZQ115 Confirmed.You have received Ksh170.00 fromJOYCE MUGURE 254723929976on 26/10/14 at 3:27 PMNew M-PESA balance is Ksh177.00.Save money on M-Shwari 
+================================================================================
+result:26/10/14,3:27 PM,received,170.00,254723929976,JOYCE MUGURE,177.00.
+================================================================================
+
+
+ID:1653
+raw:
+GA40NF071 Confirmed. Ksh120.00 sent to DAVID KAMAU 0713218883 on 23/11/14 at 9:54 PM New M-PESA balance is Ksh19.00.Save & get a loan on Mshwari
+================================================================================
+result:23/11/14,9:54 PM,sent,120.00,0713218883,DAVID KAMAU,19.00.
+================================================================================
+
+
+ID:1680
+raw:
+FY58AN045 Confirmed. You have repaid loan Ksh100.00 from your M-PESA account on 10/11/14 at 7:48 PM . M-PESA balance is Ksh195.00. Your loan balance is Ksh7.50
+================================================================================
+result:10/11/14,7:48 PM,loan,100.00,,your M-PESA account,195.00.
+================================================================================
+
+
+ID:1620
+raw:
+Your loan request was declined because the amount was higher than your maximum limit, you currently qualify for Ksh0.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1639
+raw:
+GB59PT097 Confirmed.You have received Ksh170.00 fromJOYCE MUGURE 254723929976on 2/12/14 at 3:11 PMNew M-PESA balance is Ksh170.00.Save money on M-Shwari 
+================================================================================
+result:2/12/14,3:11 PM,received,170.00,254723929976,JOYCE MUGURE,170.00.
+================================================================================
+
+
+ID:1688
+raw:
+FY24XA296 Confirmed.
+on 8/11/14 at 3:03 PM
+Give Ksh350.00 cash to Mosecat Comm Along Mwihoko Road Githurai Eureka Shop Agg
+New M-PESA balance is Ksh362.00
+================================================================================
+result:8/11/14,3:03 PM,Give,350.00,,Mosecat Comm Along Mwihoko Road Githurai Eureka Shop Agg,362.00
+================================================================================
+
+
+ID:1727
+raw:
+GL10YL428 Confirmed.on 7/2/15 at 4:12 PMGive Ksh700.00 cash to Jeska Invest John Saga Wholesale HurumaNew M-PESA balance is Ksh700.00.Buy goods with M-PESA.
+================================================================================
+result:7/2/15,4:12 PM,Give,700.00,,Jeska Invest John Saga Wholesale Huruma,700.00.
+================================================================================
+
+
+ID:1787
+raw:
+GG66QY993 Confirmed.on 6/1/15 at 8:19 PMGive Ksh2,000.00 cash to PEP Nakumatt Prestige EXTNew M-PESA balance is Ksh2,000.00.Buy goods with M-PESA.
+================================================================================
+result:6/1/15,8:19 PM,Give,2,000.00,,PEP Nakumatt Prestige EXT,2,000.00.
+================================================================================
+
+
+ID:1751
+raw:
+GH34RZ000 Confirmed. Ksh20.00 paid to  Uchumi Supermarket Ngong Hyper on 11/1/15 at 10:26 PM
+New M-PESA balance is Ksh52.00.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1651
+raw:
+GA71LZ968 Confirmed.
+on 26/11/14 at 10:49 AM
+Give Ksh150.00 cash to Bernice Comms Pride Inn Westlands Rd Near Soin Arcade Agg
+New M-PESA balance is Ksh150.00
+================================================================================
+result:26/11/14,10:49 AM,Give,150.00,,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade Agg,150.00
+================================================================================
+
+
+ID:1747
+raw:
+GI35RK056 Confirmed.You have received Ksh130.00 fromKELVIN KIMANI 254717674080on 19/1/15 at 10:12 AMNew M-PESA balance is Ksh130.00.Pay Bills via M-PESA
+================================================================================
+result:19/1/15,10:12 AM,received,130.00,254717674080,KELVIN KIMANI,130.00.
+================================================================================
+
+
+ID:1742
+raw:
+GI57OP801 Confirmed.You have received Ksh160.00 fromJOYCE MUGURE 254723929976on 20/1/15 at 6:04 PMNew M-PESA balance is Ksh160.00.Pay Bills via M-PESA
+================================================================================
+result:20/1/15,6:04 PM,received,160.00,254723929976,JOYCE MUGURE,160.00.
+================================================================================
+
+
+ID:1618
+raw:
+GD76YX285 Confirmed.on 17/12/14 at 3:45 PMWithdraw Ksh100.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh0.00.Save & get a loan on MShwari
+================================================================================
+result:17/12/14,3:45 PM,Withdraw,100.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,0.00.
+================================================================================
+
+
+ID:1736
+raw:
+GJ78RN191 confirmed. You bought Ksh16.00 of airtime on 29/1/15 at 7:00 PM
+New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
+================================================================================
+result:29/1/15,7:00 PM,bought,16.00,,airtime,0.00.
+================================================================================
+
+
+ID:1799
+raw:
+GE80FI088 Confirmed.You have received Ksh200.00 fromMOAT WAIRIMU KINYUA 254724123120on 24/12/14 at 2:22 PMNew M-PESA balance is Ksh200.00.Save money on M-Shwari 
+================================================================================
+result:24/12/14,2:22 PM,received,200.00,254724123120,MOAT WAIRIMU KINYUA,200.00.
+================================================================================
+
+
+ID:1624
+raw:
+GD02DA898 confirmed. Loan request at M-Shwari is approved. New M-PESA balance is Ksh600.00. Your loan of Ksh107.50 is due on 10/01/2015.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1695
+raw:
+FY03DG535 Confirmed.You have received Ksh100.00 fromJOYCE MUGURE 254723929976on 7/11/14 at 8:39 AMNew M-PESA balance is Ksh147.00.Save money on M-Shwari 
+================================================================================
+result:7/11/14,8:39 AM,received,100.00,254723929976,JOYCE MUGURE,147.00.
+================================================================================
+
+
+ID:1650
+raw:
+GA71KG947 Confirmed. Ksh130.00 sent to ESTHER NDONGA 0723536034 on 26/11/14 at 10:55 AM New M-PESA balance is Ksh9.00.Save & get a loan on Mshwari
+================================================================================
+result:26/11/14,10:55 AM,sent,130.00,0723536034,ESTHER NDONGA,9.00.
+================================================================================
+
+
+ID:1616
+raw:
+GD84WR907 Confirmed.on 18/12/14 at 8:29 AMWithdraw Ksh90.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh0.00.Save & get a loan on MShwari
+================================================================================
+result:18/12/14,8:29 AM,Withdraw,90.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,0.00.
+================================================================================
+
+
+ID:1704
+raw:
+FX20SH443 Confirmed. Your M-Shwari loan request will be processed shortly.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1712
+raw:
+FV77AU257 Confirmed.on 21/10/14 at 3:44 PMWithdraw Ksh120.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh4.00.Save & get a loan on MShwari
+================================================================================
+result:21/10/14,3:44 PM,Withdraw,120.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,4.00.
+================================================================================
+
+
+ID:1626
+raw:
+GD02DA898 Confirmed. Your M-Shwari loan request will be processed shortly.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1631
+raw:
+GC93HR690 Confirmed. Your loan limit is Ksh100.00.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1749
+raw:
+GH34UE375 confirmed. You bought Ksh20.00 of airtime for 0701448176 on 11/1/15 at 10:36 PM
+New M-PESA balance is Ksh10.00
+================================================================================
+result:11/1/15,10:36 PM,bought,20.00,,airtime for 0701448176,10.00
+================================================================================
+
+
+ID:1640
+raw:
+GB46UB928 confirmed. You bought Ksh19.00 of airtime for 0723536034 on 1/12/14 at 5:06 PM
+New M-PESA balance is Ksh0.00
+================================================================================
+result:1/12/14,5:06 PM,bought,19.00,,airtime for 0723536034,0.00
+================================================================================
+
+
+ID:1762
+raw:
+GG85QX600 Confirmed. Ksh2,300.00 sent to Safaricom I&M Visa Card for account 4054570200132388 on 8/1/15 at 10:52 AMNew M-PESA balance is Ksh167.00.Dial *234*6# for M-Shwari 
+================================================================================
+result:8/1/15,10:52 AM,sent,2,300.00,4054570200132388,Safaricom I&M Visa Card for account,167.00.
+================================================================================
+
+
+ID:1628
+raw:
+GC96PN544 confirmed. You bought Ksh19.00 of airtime on 11/12/14 at 7:55 PM
+New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
+================================================================================
+result:11/12/14,7:55 PM,bought,19.00,,airtime,0.00.
+================================================================================
+
+
+ID:1716
+raw:
+Failed. You are currently not allowed access to this service. For more information call customer care on 234
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1783
+raw:
+GG73WK086 confirmed. You bought Ksh20.00 of airtime on 7/1/15 at 1:24 PM
+New M-PESA balance is Ksh9.00.Transact on M-PESA and win!
+================================================================================
+result:7/1/15,1:24 PM,bought,20.00,,airtime,9.00.
+================================================================================
+
+
+ID:1781
+raw:
+GG85CB888 Confirmed.on 8/1/15 at 10:16 AMGive Ksh2,500.00 cash to Naivas Westlands West End Plaza NairobiNew M-PESA balance is Ksh2,500.00.Buy goods with M-PESA.
+================================================================================
+result:8/1/15,10:16 AM,Give,2,500.00,,Naivas Westlands West End Plaza Nairobi,2,500.00.
+================================================================================
+
+
+ID:1756
+raw:
+GH18AO156 Confirmed. Ksh230.00 sent to JOYCE MUGURE 0723929976 on 10/1/15 at 5:01 PM New M-PESA balance is Ksh216.00.Pay with M-PESA and win!
+================================================================================
+result:10/1/15,5:01 PM,sent,230.00,0723929976,JOYCE MUGURE,216.00.
+================================================================================
+
+
+ID:1663
+raw:
+FZ69CI857 confirmed. You bought Ksh50.00 of airtime on 18/11/14 at 5:37 PM
+New M-PESA balance is Ksh116.00.Save & earn interest on MShwari
+================================================================================
+result:18/11/14,5:37 PM,bought,50.00,,airtime,116.00.
+================================================================================
+
+
+ID:1636
+raw:
+GC04BH986 Confirmed.
+on 5/12/14 at 4:00 PM
+Give Ksh1,100.00 cash to Naivas Westlands West End Plaza Nairobi
+New M-PESA balance is Ksh1,100.00
+================================================================================
+result:5/12/14,4:00 PM,Give,1,100.00,,Naivas Westlands West End Plaza Nairobi,1,100.00
+================================================================================
+
+
+ID:1683
+raw:
+FY57TY612 Confirmed.
+on 10/11/14 at 7:40 PM
+Give Ksh1,500.00 cash to Naivas Westlands West End Plaza Nairobi
+New M-PESA balance is Ksh1,521.00
+================================================================================
+result:10/11/14,7:40 PM,Give,1,500.00,,Naivas Westlands West End Plaza Nairobi,1,521.00
+================================================================================
+
+
+ID:1734
+raw:
+GJ87SW989 Confirmed.on 30/1/15 at 1:47 PMWithdraw Ksh50.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh0.00.Dial *234*6# for M-Shwari
+================================================================================
+result:30/1/15,1:47 PM,Withdraw,50.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,0.00.
+================================================================================
+
+
+ID:1771
+raw:
+FW18DP608 Confirmed.on 24/10/14 at 5:58 PMWithdraw Ksh470.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh7.00.Save & get a loan on MShwari
+================================================================================
+result:24/10/14,5:58 PM,Withdraw,470.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,7.00.
+================================================================================
+
+
+ID:1723
+raw:
+FU93UP029 confirmed. You bought Ksh20.00 of airtime on 15/10/14 at 11:48 AM
+New M-PESA balance is Ksh3.00.Save & earn interest on MShwari
+================================================================================
+result:15/10/14,11:48 AM,bought,20.00,,airtime,3.00.
+================================================================================
+
+
+ID:1733
+raw:
+Failed. You do not have enough money in your M-PESA account for your balance to be sent. 
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1696
+raw:
+FX92KT676 Confirmed. Ksh1,030.00 sent to ANNE MURAGE 0722979405 on 6/11/14 at 1:14 PM New M-PESA balance is Ksh47.00.Save & get a loan on Mshwari
+================================================================================
+result:6/11/14,1:14 PM,sent,1,030.00,0722979405,ANNE MURAGE,47.00.
+================================================================================
+
+
+ID:1641
+raw:
+GB46TP521 Confirmed. Ksh497.00 sent to ESTHER NDONGA 0723536034 on 1/12/14 at 5:00 PM New M-PESA balance is Ksh19.00.Save & get a loan on Mshwari
+================================================================================
+result:1/12/14,5:00 PM,sent,497.00,0723536034,ESTHER NDONGA,19.00.
+================================================================================
+
+
+ID:1775
+raw:
+The amount was entered incorrectly.  Please try again.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1724
+raw:
+FU85PL509 Confirmed.on 14/10/14 at 5:52 PMWithdraw Ksh100.00 from 126024 - Naivas Westlands West End Plaza NairobiNew M-PESA balance is Ksh23.00.Save & get a loan on MShwari
+================================================================================
+result:14/10/14,5:52 PM,Withdraw,100.00,126024,Naivas Westlands West End Plaza NairobiNew M-PESA ,23.00.
+================================================================================
+
+
+ID:1765
+raw:
+FX92JJ497 Confirmed.
+on 6/11/14 at 1:11 PM
+Give Ksh1,100.00 cash to Bernice Comms Pride Inn Westlands Rd Near Soin Arcade Agg
+New M-PESA balance is Ksh1,102.00
+================================================================================
+result:6/11/14,1:11 PM,Give,1,100.00,,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade Agg,1,102.00
+================================================================================
+
+
+ID:1726
+raw:
+GL10ZL124 Confirmed. Ksh555.00 sent to ESTHER NDONGA 0723536034 on 7/2/15 at 4:15 PM New M-PESA balance is Ksh130.00.
+================================================================================
+result:7/2/15,4:15 PM,sent,555.00,0723536034,ESTHER NDONGA,130.00.
+================================================================================
+
+
+ID:1761
+raw:
+GG85RB286 confirmed. You bought Ksh60.00 of airtime on 8/1/15 at 10:59 AM
+New M-PESA balance is Ksh107.00.Transact on M-PESA and win!
+================================================================================
+result:8/1/15,10:59 AM,bought,60.00,,airtime,107.00.
+================================================================================
+
+
+ID:1617
+raw:
+GD84KP467 Confirmed.
+You have received Ksh100.00 from
+JOYCE MUGURE 254723929976
+on 18/12/14 at 7:47 AM
+New M-PESA balance is Ksh100.00.Save money on M-Shwari 
+================================================================================
+result:18/12/14,7:47 AM,received,100.00,254723929976,JOYCE MUGURE,100.00.
+================================================================================
+
+
+ID:1629
+raw:
+GC96TZ085 Confirmed. You have transferred Ksh10.00 from your M-Shwari account on 11/12/14 at 7:54 PM. M-Shwari balance is Ksh3.76. M-PESA balance is Ksh19.00.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1644
+raw:
+GA74SJ626 Confirmed.on 26/11/14 at 2:48 PMWithdraw Ksh90.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh1.00.Save & get a loan on MShwari
+================================================================================
+result:26/11/14,2:48 PM,Withdraw,90.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,1.00.
+================================================================================
+
+
+ID:1702
+raw:
+FX20TJ632 confirmed. You bought Ksh50.00 of airtime on 1/11/14 at 1:08 PM
+New M-PESA balance is Ksh54.00.Save & earn interest on MShwari
+================================================================================
+result:1/11/14,1:08 PM,bought,50.00,,airtime,54.00.
+================================================================================
+
+
+ID:1713
+raw:
+FV76UY221 Confirmed.You have received Ksh130.00 fromKELVIN KIMANI 254717674080on 21/10/14 at 3:28 PMNew M-PESA balance is Ksh151.00.Save money on M-Shwari 
+================================================================================
+result:21/10/14,3:28 PM,received,130.00,254717674080,KELVIN KIMANI,151.00.
+================================================================================
+
+
+ID:1779
+raw:
+GK01NR938 Confirmed.You have received Ksh450.00 fromDiana MURAGE 254710525004on 31/1/15 at 12:50 PMNew M-PESA balance is Ksh450.00.Pay Bills via M-PESA
+================================================================================
+result:31/1/15,12:50 PM,received,450.00,254710525004,Diana MURAGE,450.00.
+================================================================================
+
+
+ID:1744
+raw:
+GI36KI140 Confirmed.on 19/1/15 at 11:00 AMWithdraw Ksh100.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh20.00.Dial *234*6# for M-Shwari
+================================================================================
+result:19/1/15,11:00 AM,Withdraw,100.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,20.00.
+================================================================================
+
+
+ID:1707
+raw:
+FW66TP857 Confirmed. Ksh530.00 sent to CHRISTINE GITHINJI 0710570295 on 28/10/14 at 3:36 PM New M-PESA balance is Ksh4,920.00.Save & get a loan on Mshwari
+================================================================================
+result:28/10/14,3:36 PM,sent,530.00,0710570295,CHRISTINE GITHINJI,4,920.00.
+================================================================================
+
+
+ID:1714
+raw:
+FV76UX637 Confirmed.on 21/10/14 at 3:28 PMWithdraw Ksh100.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh21.00.Save & get a loan on MShwari
+================================================================================
+result:21/10/14,3:28 PM,Withdraw,100.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,21.00.
+================================================================================
+
+
+ID:1699
+raw:
+FX67KU373 Confirmed.You have received Ksh85.00 fromJOYCE MUGURE 254723929976on 4/11/14 at 5:48 PMNew M-PESA balance is Ksh92.00.Save money on M-Shwari 
+================================================================================
+result:4/11/14,5:48 PM,received,85.00,254723929976,JOYCE MUGURE,92.00.
+================================================================================
+
+
+ID:1777
+raw:
+GK35AH994 Confirmed.You have received Ksh120.00 fromKELVIN KIMANI 254717674080on 2/2/15 at 5:35 PMNew M-PESA balance is Ksh123.00.Pay Bills via M-PESA
+================================================================================
+result:2/2/15,5:35 PM,received,120.00,254717674080,KELVIN KIMANI,123.00.
+================================================================================
+
+
+ID:1730
+raw:
+GK44SC170 confirmed. You bought Ksh13.00 of airtime on 3/2/15 at 12:02 PM
+New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
+================================================================================
+result:3/2/15,12:02 PM,bought,13.00,,airtime,0.00.
+================================================================================
+
+
+ID:1672
+raw:
+FY79DL776 confirmed. Loan request at M-Shwari is approved. New M-PESA balance is Ksh850.00. Your loan of Ksh107.50 is due on 11/12/2014.
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1685
+raw:
+FY54IS032 Confirmed. Ksh1,100.00 sent to Safaricom I&M Visa Card for account 4054570200132388 on 10/11/14 at 4:38 PM
+New M-PESA balance is Ksh21.00.
+================================================================================
+result:10/11/14,4:38 PM,sent,1,100.00,4054570200132388,Safaricom I&M Visa Card for account,21.00.
+================================================================================
+
+
+ID:1752
+raw:
+GH35FA032 Confirmed on 11/1/15 at 10:24 PM. Ksh500 withdrawn from 555555 - AGENT ATM. New M-PESA balance is Ksh72
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1729
+raw:
+GK52RY410 Confirmed.You have received Ksh110.00 fromJOYCE MUGURE 254723929976on 3/2/15 at 7:50 PMNew M-PESA balance is Ksh110.00.Pay Bills via M-PESA
+================================================================================
+result:3/2/15,7:50 PM,received,110.00,254723929976,JOYCE MUGURE,110.00.
+================================================================================
+
+
+ID:1774
+raw:
+GK35JF041 Confirmed.on 2/2/15 at 5:49 PMWithdraw Ksh100.00 from 711034 - Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA balance is Ksh13.00.Dial *234*6# for M-Shwari
+================================================================================
+result:2/2/15,5:49 PM,Withdraw,100.00,711034,Bernice Comms Pride Inn Westlands Rd Near Soin Arcade AggNew M-PESA ,13.00.
+================================================================================
+
+
+ID:1647
+raw:
+GA73WU782 Confirmed. Ksh100.00 sent to ESTHER NDONGA 0723536034 on 26/11/14 at 1:47 PM New M-PESA balance is Ksh16.00.Save & get a loan on Mshwari
+================================================================================
+result:26/11/14,1:47 PM,sent,100.00,0723536034,ESTHER NDONGA,16.00.
+================================================================================
+
+
+ID:1758
+raw:
+Failed. 
+Not enough money in your M-PESA account to send Ksh558,556.00. You must be able to pay the transaction fee as well as the requested amount.
+Your M-PESA balance is Ksh7.00
+================================================================================
+result:,,,,,,
+================================================================================
+
+
+ID:1622
+raw:
+GD04EF155 Confirmed. Ksh1,530.00 sent to PETER NYAHOR 0721293864 on 12/12/14 at 12:43 PM New M-PESA balance is Ksh470.00.Save & get a loan on Mshwari
+================================================================================
+result:12/12/14,12:43 PM,sent,1,530.00,0721293864,PETER NYAHOR,470.00.
+================================================================================
+
+
+ID:1686
+raw:
+FY31XJ430 Confirmed.
+on 8/11/14 at 10:19 PM
+Give Ksh1,100.00 cash to PEP Nakumatt Prestige EXT
+New M-PESA balance is Ksh1,121.00
+================================================================================
+result:8/11/14,10:19 PM,Give,1,100.00,,PEP Nakumatt Prestige EXT,1,121.00
+================================================================================
+
+
+ID:1719
+raw:
+FV05YQ524 confirmed. You bought Ksh5.00 of airtime on 16/10/14 at 9:45 AM
+New M-PESA balance is Ksh1.00.Save & earn interest on MShwari
+================================================================================
+result:16/10/14,9:45 AM,bought,5.00,,airtime,1.00.
+================================================================================
+
+
+ID:1655
+raw:
+GA18DE727 confirmed. You bought Ksh34.00 of airtime on 22/11/14 at 10:42 AM
+New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
+================================================================================
+result:22/11/14,10:42 AM,bought,34.00,,airtime,0.00.
+================================================================================
+
+
+ID:1740
+raw:
+GI71PN953 Confirmed.You have received Ksh980.00 fromKELVIN KIMANI 254717674080on 21/1/15 at 6:51 PMNew M-PESA balance is Ksh993.00.Pay Bills via M-PESA
+================================================================================
+result:21/1/15,6:51 PM,received,980.00,254717674080,KELVIN KIMANI,993.00.
+================================================================================
+
+
+ID:1791
+raw:
+GG15AQ933 confirmed. You bought Ksh130.00 of airtime on 3/1/15 at 9:02 AM
+New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
+================================================================================
+result:3/1/15,9:02 AM,bought,130.00,,airtime,0.00.
+================================================================================
+
+
+ID:1691
+raw:
+FY22QK777 Confirmed.
+on 8/11/14 at 12:43 PM
+Give Ksh600.00 cash to Mobilewise Techno Mtwapa Near Peluma House
+New M-PESA balance is Ksh647.00
+================================================================================
+result:8/11/14,12:43 PM,Give,600.00,,Mobilewise Techno Mtwapa Near Peluma House,647.00
+================================================================================
+
+
+ID:1711
+raw:
+FW41JR927 Confirmed.on 26/10/14 at 3:55 PMWithdraw Ksh140.00 from 961037 - Topgen Services Woodley MartNew M-PESA balance is Ksh10.00.Save & get a loan on MShwari
+================================================================================
+result:26/10/14,3:55 PM,Withdraw,140.00,961037,Topgen Services Woodley MartNew M-PESA ,10.00.
+================================================================================
+
+
+ID:1649
+raw:
+GA73SR688 Confirmed.You have received Ksh110.00 fromKELVIN KIMANI 254717674080on 26/11/14 at 1:45 PMNew M-PESA balance is Ksh119.00.Save money on M-Shwari 
+================================================================================
+result:26/11/14,1:45 PM,received,110.00,254717674080,KELVIN KIMANI,119.00.
+================================================================================
+
+
+ID:1642
+raw:
+GB46QB618 Confirmed.You have received Ksh527.00 fromKELVIN KIMANI 254717674080on 1/12/14 at 4:54 PMNew M-PESA balance is Ksh527.00.Save money on M-Shwari 
+================================================================================
+result:1/12/14,4:54 PM,received,527.00,254717674080,KELVIN KIMANI,527.00.
+================================================================================
+
+
+ID:1708
+raw:
+FW66SX645 Confirmed. Ksh530.00 sent to CALYS WACHERA 0724072324 on 28/10/14 at 3:34 PM New M-PESA balance is Ksh5,465.00.Save & get a loan on Mshwari
+================================================================================
+result:28/10/14,3:34 PM,sent,530.00,0724072324,CALYS WACHERA,5,465.00.
+================================================================================
+
+
+Summary:
+Total Records:376
+Processed Records:343
+Non processed Records:33
