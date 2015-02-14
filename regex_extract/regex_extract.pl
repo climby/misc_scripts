@@ -16,7 +16,7 @@ if ( $input =~
 /(.*)\s+Confirmed\.\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M)\s+(Withdraw)\s+[^\d]+([\.,\d]+)\s+from\s+(\d+)\s+-\s([^\n]+).*balance\s+is[^\d]+([\.,\d]+)/msi
   )
 {
-	$type = 'Agent Withdraw';
+	$type = 'withdraw_agent';
 	(
 		$code, $date, $time, $transaction, $amount, $agent_number, $agent_name,
 		$balance
@@ -26,7 +26,7 @@ elsif ( $input =~
 /(.*)\s+Confirmed\.\s+.*(received)\s+[^\d]+([\.,\d]+)\s+from\s+([^\d]+)\s+(\d+)\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M)\s+.*balance\s+is[^\d]+([\.,\d]+)/msi
   )
 {
-	$type = 'Receive';
+	$type = 'receive';
 	(
 		$code, $transaction, $amount, $agent_name, $agent_number, $date, $time,
 		$balance
@@ -36,7 +36,7 @@ elsif ( $input =~
 /(.*)\s+Confirmed\.\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M)\s+(Give)\s+[^\d]+([\.,\d]+)\s+.*to\s+([^\n]+).*New.*balance\s+is[^\d]+([\.,\d]+)/msi
   )
 {
-	$type = 'Agent Deposit';
+	$type = 'deposit';
 	( $code, $date, $time, $transaction, $amount, $agent_name, $balance ) =
 	  ( $1, $2, $3, $4, $5, $6, $7 );
 }
@@ -53,7 +53,7 @@ elsif ( $input =~
 /(.*)\s+Confirmed\.\s+[^\d]+([\.,\d]+)\s+(sent)\s+to\s+([^\d]+)\s+(\d+)\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M).*New.*balance\s+is[^\d]+([\.,\d]+)/msi
   )
 {
-	$type = 'Send';
+	$type = 'send';
 	(
 		$code, $amount, $transaction, $agent_name, $agent_number, $date, $time,
 		$balance
@@ -63,7 +63,7 @@ elsif ( $input =~
 /(.*)\s+Confirmed\.\s+[^\d]+([\.,\d]+)\s+(sent)\s+to\s+(.*)\s+for\s+(.*)\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M).*New.*balance\s+is[^\d]+([\.,\d]+)/msi
   )
 {
-	$type = 'Paybill';
+	$type = 'paybill';
 	(
 		$code, $amount, $transaction, $agent_name, $agent_number, $date, $time,
 		$balance
@@ -82,7 +82,7 @@ elsif ( $input =~
 /(.*)\s+Confirmed\.\s+[^\d]+([\.,\d]+)\s+(paid)\s+to\s+(.*)\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M).*balance\s+is[^\d]+([\.,\d]+)/msi
   )
 {
-	$type = 'Buy goods';
+	$type = 'buy_goods';
 	( $code, $amount, $transaction, $agent_name, $date, $time, $balance ) =
 	  ( $1, $2, $3, $4, $5, $6, $7 );
 }
@@ -90,7 +90,7 @@ elsif ( $input =~
 /(.*)\s+Confirmed\.?\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M)[^\d]+([\.,\d]+)\s+(withdrawn)\s+from\s+([\d]+)\s+-\s+AGENT\s+ATM.*balance\s+is[^\d]+([\.,\d]+)/msi
   )
 {
-	$type = "Atm Withdraw";
+	$type = "withdraw_atm";
 	( $code, $date, $time,, $amount, $transaction, $agent_number, $balance ) =
 	  ( $1, $2, $3, $4, $5, $6, $7 );
 }
