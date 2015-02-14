@@ -44,8 +44,20 @@ elsif ( $input =~
 /(.*)\s+Confirmed\.\s+.*(bought)\s+[^\d]+([\.,\d]+)\s+.*of\s+(.*)\s+(?:for)?\s*(\d*)\s*on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M).*New.*balance\s+is[^\d]+([\.,\d]+).*/msi
   )
 {
+
+	#ignore this type;
+	#(
+	#	$code, $transaction, $amount, $agent_name, $agent_number, $date, $time,
+	#	$balance
+	#) = ( $1, $2, $3, $4, $5, $6, $7, $8 );
+}
+elsif ( $input =~
+/(.*)\s+Confirmed\.\s+[^\d]+([\.,\d]+)\s+(sent)\s+to\s+(.*)\s+for\s+(.*)\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M).*New.*balance\s+is[^\d]+([\.,\d]+)/msi
+  )
+{
+	$type = 'paybill';
 	(
-		$code, $transaction, $amount, $agent_name, $agent_number, $date, $time,
+		$code, $amount, $transaction, $agent_name, $agent_number, $date, $time,
 		$balance
 	) = ( $1, $2, $3, $4, $5, $6, $7, $8 );
 }
@@ -54,16 +66,6 @@ elsif ( $input =~
   )
 {
 	$type = 'send';
-	(
-		$code, $amount, $transaction, $agent_name, $agent_number, $date, $time,
-		$balance
-	) = ( $1, $2, $3, $4, $5, $6, $7, $8 );
-}
-elsif ( $input =~
-/(.*)\s+Confirmed\.\s+[^\d]+([\.,\d]+)\s+(sent)\s+to\s+(.*)\s+for\s+(.*)\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M).*New.*balance\s+is[^\d]+([\.,\d]+)/msi
-  )
-{
-	$type = 'paybill';
 	(
 		$code, $amount, $transaction, $agent_name, $agent_number, $date, $time,
 		$balance

@@ -35,7 +35,7 @@ raw:
 FV05XE350 confirmed. You bought Ksh20.00 of airtime on 16/10/14 at 9:41 AM
 New M-PESA balance is Ksh6.00.Save & earn interest on MShwari
 ================================================================================
-result:,FV05XE350,16/10/14,9:41 AM,bought,20.00,,airtime,6.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -87,7 +87,7 @@ raw:
 GF15GX851 confirmed. You bought Ksh6.00 of airtime on 26/12/14 at 6:59 PM
 New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
 ================================================================================
-result:,GF15GX851,26/12/14,6:59 PM,bought,6.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -136,7 +136,7 @@ raw:
 GA74BA573 confirmed. You bought Ksh15.00 of airtime for 0723536034 on 26/11/14 at 2:03 PM
 New M-PESA balance is Ksh1.00
 ================================================================================
-result:,GA74BA573,26/11/14,2:03 PM,bought,15.00,,airtime for 0723536034,1.00
+result:,,,,,,,,
 ================================================================================
 
 
@@ -198,7 +198,7 @@ raw:
 GD02KN966 confirmed. You bought Ksh60.00 of airtime on 12/12/14 at 10:36 AM
 New M-PESA balance is Ksh540.00.Save & earn interest on MShwari
 ================================================================================
-result:,GD02KN966,12/12/14,10:36 AM,bought,60.00,,airtime,540.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -263,7 +263,7 @@ raw:
 GC95HE475 confirmed. You bought Ksh20.00 of airtime on 11/12/14 at 6:39 PM
 New M-PESA balance is Ksh9.00.Save & earn interest on MShwari
 ================================================================================
-result:,GC95HE475,11/12/14,6:39 PM,bought,20.00,,airtime,9.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -280,7 +280,7 @@ raw:
 GB65RN455 confirmed. You bought Ksh13.00 of airtime on 2/12/14 at 9:39 PM
 New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
 ================================================================================
-result:,GB65RN455,2/12/14,9:39 PM,bought,13.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -289,7 +289,7 @@ raw:
 GI46TY707 confirmed. You bought Ksh20.00 of airtime on 19/1/15 at 9:20 PM
 New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
 ================================================================================
-result:,GI46TY707,19/1/15,9:20 PM,bought,20.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -334,7 +334,7 @@ raw:
 GG73XX537 confirmed. You bought Ksh9.00 of airtime for 0701408757 on 7/1/15 at 1:27 PM
 New M-PESA balance is Ksh0.00
 ================================================================================
-result:,GG73XX537,7/1/15,1:27 PM,bought,9.00,,airtime for 0701408757,0.00
+result:,,,,,,,,
 ================================================================================
 
 
@@ -343,7 +343,7 @@ raw:
 FY76EC189 confirmed. You bought Ksh83.00 of airtime on 12/11/14 at 8:19 AM
 New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
 ================================================================================
-result:,FY76EC189,12/11/14,8:19 AM,bought,83.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -403,7 +403,7 @@ raw:
 FY74JD552 confirmed. You bought Ksh50.00 of airtime on 11/11/14 at 9:41 PM
 New M-PESA balance is Ksh83.00.Save & earn interest on MShwari
 ================================================================================
-result:,FY74JD552,11/11/14,9:41 PM,bought,50.00,,airtime,83.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -412,7 +412,7 @@ raw:
 GL13WI773 confirmed. You bought Ksh130.00 of airtime on 7/2/15 at 6:48 PM
 New M-PESA balance is Ksh0.00.
 ================================================================================
-result:,GL13WI773,7/2/15,6:48 PM,bought,130.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -454,7 +454,7 @@ raw:
 GA64VD653 confirmed. You bought Ksh19.00 of airtime on 25/11/14 at 6:24 PM
 New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
 ================================================================================
-result:,GA64VD653,25/11/14,6:24 PM,bought,19.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -496,7 +496,7 @@ raw:
 FW64TB681 confirmed. You bought Ksh300.00 of airtime on 28/10/14 at 1:06 PM
 New M-PESA balance is Ksh6,010.00.Save & earn interest on MShwari
 ================================================================================
-result:,FW64TB681,28/10/14,1:06 PM,bought,300.00,,airtime,6,010.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -572,7 +572,7 @@ raw:
 GH34ZT007 confirmed. You bought Ksh10.00 of airtime on 11/1/15 at 10:37 PM
 New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
 ================================================================================
-result:,GH34ZT007,11/1/15,10:37 PM,bought,10.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -581,7 +581,7 @@ raw:
 GA14TF194 confirmed. You bought Ksh10.00 of airtime on 21/11/14 at 10:14 PM
 New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
 ================================================================================
-result:,GA14TF194,21/11/14,10:14 PM,bought,10.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -590,7 +590,7 @@ raw:
 GG91GD244 confirmed. You bought Ksh100.00 of airtime on 8/1/15 at 5:29 PM
 New M-PESA balance is Ksh7.00.Transact on M-PESA and win!
 ================================================================================
-result:,GG91GD244,8/1/15,5:29 PM,bought,100.00,,airtime,7.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -633,7 +633,7 @@ raw:
 FY79JB489 Confirmed. Ksh850.00 sent to Safaricom I&M Visa Card for account 4054570200132388 on 12/11/14 at 11:44 AM
 New M-PESA balance is Ksh0.00.
 ================================================================================
-result:send,FY79JB489,12/11/14,11:44 AM,sent,850.00,4054570200132388,Safaricom I&M Visa Card for account,0.00.
+result:paybill,FY79JB489,12/11/14,11:44 AM,sent,850.00,account 4054570200132388,Safaricom I&M Visa Card,0.00.
 ================================================================================
 
 
@@ -749,7 +749,7 @@ raw:
 GG91GD244 confirmed. You bought Ksh100.00 of airtime on 8/1/15 at 5:29 PM
 New M-PESA balance is Ksh7.00.Transact on M-PESA and win!
 ================================================================================
-result:,GG91GD244,8/1/15,5:29 PM,bought,100.00,,airtime,7.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -758,7 +758,7 @@ raw:
 GC04QE213 confirmed. You bought Ksh45.00 of airtime on 5/12/14 at 4:33 PM
 New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
 ================================================================================
-result:,GC04QE213,5/12/14,4:33 PM,bought,45.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -775,7 +775,7 @@ raw:
 FW66TW050 confirmed. You bought Ksh100.00 of airtime on 28/10/14 at 3:37 PM
 New M-PESA balance is Ksh4,820.00.Save & earn interest on MShwari
 ================================================================================
-result:,FW66TW050,28/10/14,3:37 PM,bought,100.00,,airtime,4,820.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -784,7 +784,7 @@ raw:
 GG52JU808 confirmed. You bought Ksh6.00 of airtime on 5/1/15 at 8:52 PM
 New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
 ================================================================================
-result:,GG52JU808,5/1/15,8:52 PM,bought,6.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -809,7 +809,7 @@ raw:
 GF35HW347 confirmed. You bought Ksh60.00 of airtime on 28/12/14 at 2:02 PM
 New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
 ================================================================================
-result:,GF35HW347,28/12/14,2:02 PM,bought,60.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1071,7 +1071,7 @@ raw:
 GJ78RN191 confirmed. You bought Ksh16.00 of airtime on 29/1/15 at 7:00 PM
 New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
 ================================================================================
-result:,GJ78RN191,29/1/15,7:00 PM,bought,16.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1152,7 +1152,7 @@ raw:
 GH34UE375 confirmed. You bought Ksh20.00 of airtime for 0701448176 on 11/1/15 at 10:36 PM
 New M-PESA balance is Ksh10.00
 ================================================================================
-result:,GH34UE375,11/1/15,10:36 PM,bought,20.00,,airtime for 0701448176,10.00
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1161,7 +1161,7 @@ raw:
 GB46UB928 confirmed. You bought Ksh19.00 of airtime for 0723536034 on 1/12/14 at 5:06 PM
 New M-PESA balance is Ksh0.00
 ================================================================================
-result:,GB46UB928,1/12/14,5:06 PM,bought,19.00,,airtime for 0723536034,0.00
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1169,7 +1169,7 @@ ID:1762
 raw:
 GG85QX600 Confirmed. Ksh2,300.00 sent to Safaricom I&M Visa Card for account 4054570200132388 on 8/1/15 at 10:52 AMNew M-PESA balance is Ksh167.00.Dial *234*6# for M-Shwari 
 ================================================================================
-result:send,GG85QX600,8/1/15,10:52 AM,sent,2,300.00,4054570200132388,Safaricom I&M Visa Card for account,167.00.
+result:paybill,GG85QX600,8/1/15,10:52 AM,sent,2,300.00,account 4054570200132388,Safaricom I&M Visa Card,167.00.
 ================================================================================
 
 
@@ -1178,7 +1178,7 @@ raw:
 GC96PN544 confirmed. You bought Ksh19.00 of airtime on 11/12/14 at 7:55 PM
 New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
 ================================================================================
-result:,GC96PN544,11/12/14,7:55 PM,bought,19.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1195,7 +1195,7 @@ raw:
 GG73WK086 confirmed. You bought Ksh20.00 of airtime on 7/1/15 at 1:24 PM
 New M-PESA balance is Ksh9.00.Transact on M-PESA and win!
 ================================================================================
-result:,GG73WK086,7/1/15,1:24 PM,bought,20.00,,airtime,9.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1220,7 +1220,7 @@ raw:
 FZ69CI857 confirmed. You bought Ksh50.00 of airtime on 18/11/14 at 5:37 PM
 New M-PESA balance is Ksh116.00.Save & earn interest on MShwari
 ================================================================================
-result:,FZ69CI857,18/11/14,5:37 PM,bought,50.00,,airtime,116.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1267,7 +1267,7 @@ raw:
 FU93UP029 confirmed. You bought Ksh20.00 of airtime on 15/10/14 at 11:48 AM
 New M-PESA balance is Ksh3.00.Save & earn interest on MShwari
 ================================================================================
-result:,FU93UP029,15/10/14,11:48 AM,bought,20.00,,airtime,3.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1335,7 +1335,7 @@ raw:
 GG85RB286 confirmed. You bought Ksh60.00 of airtime on 8/1/15 at 10:59 AM
 New M-PESA balance is Ksh107.00.Transact on M-PESA and win!
 ================================================================================
-result:,GG85RB286,8/1/15,10:59 AM,bought,60.00,,airtime,107.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1372,7 +1372,7 @@ raw:
 FX20TJ632 confirmed. You bought Ksh50.00 of airtime on 1/11/14 at 1:08 PM
 New M-PESA balance is Ksh54.00.Save & earn interest on MShwari
 ================================================================================
-result:,FX20TJ632,1/11/14,1:08 PM,bought,50.00,,airtime,54.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1437,7 +1437,7 @@ raw:
 GK44SC170 confirmed. You bought Ksh13.00 of airtime on 3/2/15 at 12:02 PM
 New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
 ================================================================================
-result:,GK44SC170,3/2/15,12:02 PM,bought,13.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1454,7 +1454,7 @@ raw:
 FY54IS032 Confirmed. Ksh1,100.00 sent to Safaricom I&M Visa Card for account 4054570200132388 on 10/11/14 at 4:38 PM
 New M-PESA balance is Ksh21.00.
 ================================================================================
-result:send,FY54IS032,10/11/14,4:38 PM,sent,1,100.00,4054570200132388,Safaricom I&M Visa Card for account,21.00.
+result:paybill,FY54IS032,10/11/14,4:38 PM,sent,1,100.00,account 4054570200132388,Safaricom I&M Visa Card,21.00.
 ================================================================================
 
 
@@ -1524,7 +1524,7 @@ raw:
 FV05YQ524 confirmed. You bought Ksh5.00 of airtime on 16/10/14 at 9:45 AM
 New M-PESA balance is Ksh1.00.Save & earn interest on MShwari
 ================================================================================
-result:,FV05YQ524,16/10/14,9:45 AM,bought,5.00,,airtime,1.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1533,7 +1533,7 @@ raw:
 GA18DE727 confirmed. You bought Ksh34.00 of airtime on 22/11/14 at 10:42 AM
 New M-PESA balance is Ksh0.00.Save & earn interest on MShwari
 ================================================================================
-result:,GA18DE727,22/11/14,10:42 AM,bought,34.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1550,7 +1550,7 @@ raw:
 GG15AQ933 confirmed. You bought Ksh130.00 of airtime on 3/1/15 at 9:02 AM
 New M-PESA balance is Ksh0.00.Transact on M-PESA and win!
 ================================================================================
-result:,GG15AQ933,3/1/15,9:02 AM,bought,130.00,,airtime,0.00.
+result:,,,,,,,,
 ================================================================================
 
 
@@ -1599,5 +1599,5 @@ result:send,FW66SX645,28/10/14,3:34 PM,sent,530.00,0724072324,CALYS WACHERA,5,46
 
 Summary:
 Total Records:376
-Processed Records:343
-Non processed Records:33
+Processed Records:309
+Non processed Records:67
