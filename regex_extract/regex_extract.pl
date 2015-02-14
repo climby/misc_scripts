@@ -13,7 +13,7 @@ my (
 );
 
 if ( $input =~
-/(.*)\s+Confirmed\.\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M)\s+(Withdraw)\s+[^\d]+([\.,\d]+)\s+from\s+(\d+)\s+-\s([\w ]+).*balance\s+is[^\d]+([\.,\d]+)/msi
+/(.*)\s+Confirmed\.\s+on\s+([\/\d]+)\s+at\s+([\d:]+\s+[AP]M)\s+(Withdraw)\s+[^\d]+([\.,\d]+)\s+from\s+(\d+)\s+-\s([^\n\r]+)\n?.*balance\s+is[^\d]+([\.,\d]+)/msi
   )
 {
 	$type = 'withdraw_agent';
@@ -101,4 +101,4 @@ elsif ( $input =~
 $amount  =~ s/\.\s*$//g;
 $balance =~ s/\.\s*$//g;
 print
-"$type,$code,$date,$time,$transaction,$amount,$agent_number,$agent_name,$balance\n";
+"$type;$code;$date;$time;$transaction;$amount;$agent_number;$agent_name;$balance\n";
