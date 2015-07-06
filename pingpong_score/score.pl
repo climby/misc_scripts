@@ -28,9 +28,9 @@ foreach my $id (2100..2300) {
 		my $tree_obj = HTML::TreeBuilder::XPath->new();
 		$tree_obj->parse($html);
 		
-		my $xpath = q{//font[text() = 'Main Draws' ]|//font[text() = '2nd Stage' ] };
+		my $xpath = q{//table[@width = '170' and contains(.,'Main Draw')] };
 		my $node = $tree_obj->findnodes($xpath)->[0];
-		next if (! $node);
+		#next if (! $node);
 		my $value = $node->findvalue('.');
 		print "$id:$value\n";
 	}
