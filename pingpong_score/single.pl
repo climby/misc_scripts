@@ -10,14 +10,16 @@ use UTF8;
 use URI::QueryParam;
 
 my $url            = $ARGV[0];
+my $uri            = URI->new($url);
 my $competition_id =
-  URI->new($url)->query_param('Competition_ID');
+  $uri->query_param('Competition_ID');
+my $type = $uri->query_param('s_Event_Type');
 exit if ( !$competition_id );
 
 my $fh;
 
 # open csv file
-my $file = "pingpong_single_${competition_id}.csv";
+my $file = "pingpong_${type}_${competition_id}.csv";
 if ( -e $file ) {
 	open $fh, ">>", $file or die $!;
 }

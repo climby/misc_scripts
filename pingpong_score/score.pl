@@ -15,7 +15,7 @@ my $ua = LWP::UserAgent->new();
 my $file = "url.txt";
 my $fh;
 
-open my $fh, ">", $file or die $!;
+open $fh, ">", $file or die $!;
 
 foreach my $id ( $START_ID .. $END_ID ) {
 	my $url =
