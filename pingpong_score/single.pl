@@ -10,7 +10,8 @@ use UTF8;
 use URI::QueryParam;
 
 my $url            = $ARGV[0];
-my $competition_id = URI->new($url)->query_param('Competition_ID');
+my $competition_id =
+  URI->new($url)->query_param('Competition_ID');
 exit if ( !$competition_id );
 
 my $fh;
@@ -57,21 +58,23 @@ while ( ( $resp = $ua->get($url) ) && ( $resp->is_success ) ) {
 		if ( $i % 4 == 1 ) {
 			$player1 =
 			  $item->findvalue('td[1]/font/text()[3]|td[1]/font/text()[6]');
-			next if ( !$player1 );
+
 		}
 		if ( $i % 4 == 2 ) {
 			my $sum_score = $item->findvalue('td[2]/font/b/font');
 			( $score1, $score2 ) = $sum_score =~ /(\d+)-(\d+)/;
 			$time = $item->findvalue('td[1]/font[1]/font[1]');
-			next if ( !$time );
+
 		}
 		if ( $i % 4 == 0 ) {
 			$player2 = $item->findvalue('td[1]/font[1]/font[2]/text()[2]');
-			next if ( !$player2 );
-			my $round_line =
-			  "$race_name,$round,$time,$player1,$player2,$score1, $score2\n";
-			print "$round_line";
-			print $fh $round_line;
+
+			if ( $player1 && $player2 && $time && $score1 ) {
+				my $round_line =
+"$race_name,$round,$time,$player1,$player2,$score1, $score2\n";
+				print "$round_line";
+				print $fh $round_line;
+			}
 		}
 
 		$i++;
