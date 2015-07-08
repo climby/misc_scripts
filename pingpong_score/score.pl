@@ -7,8 +7,8 @@ use URI;
 use URI::QueryParam;
 use LWP;
 
-my $START_ID = 2200; 
-my $END_ID   = 2300;
+my $START_ID = 2278;
+my $END_ID   = 2278;
 
 my $ua = LWP::UserAgent->new();
 
@@ -49,21 +49,25 @@ q{//table[@width = '170' and contains(.,'Main Draw')]|//table[@width = '170' and
 
 close $fh;
 
-=cut 
-
 # read the url file and fetch the webpage
 open $fh, "<", $file or die $!;
 while ( my $line = <$fh> ) {
+	my $team_flag = 0;
 	chomp $line;
+	$team_flag = 1 if ( $line =~ m{/2ndstage/}i );
 	my $uri_obj = URI->new($line);
 	my $type    = $uri_obj->query_param('s_Event_Type');
-	next if ( !$type );
-	if ( ( $type eq 'MS' ) or ( $type eq 'WS' ) ) {
-		`perl single.pl  $line`;
-	}
-	if ( ( $type eq 'MD' ) or ( $type eq 'WD' ) ) {
-		`perl double.pl  $line`;
+	$type = $type ? $type : '';
+	if ( $type or $team_flag ) {
+
+		if ( ( $type eq 'MS' ) or ( $type eq 'WS' ) ) {
+			`perl single.pl  $line`;
+		}
+		if ( ( $type eq 'MD' ) or ( $type eq 'WD' ) ) {
+			`perl double.pl  $line`;
+		}
+		if ($team_flag) {
+			`perl team.pl $line`;
+		}
 	}
 }
-
-=cut 

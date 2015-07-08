@@ -9,10 +9,18 @@ use URI;
 use URI::QueryParam;
 
 my $url = $ARGV[0];
-$url =
-q{http://ittf.com/ittf_team_events/2ndstage/teams_2nd_stage_16_positions_wttc_print_2.asp?Tour_Code=2278&Event_Type=mstm2&team_stage=112};
+#$url =
+#q{http://ittf.com/ittf_team_events/2ndstage/teams_2nd_stage_16_positions_wttc_print_2.asp?Tour_Code=2278&Event_Type=mstm2&team_stage=112};
+
 my $ua = LWP::UserAgent->new;
 my $resp;
+my @team_match_urls = ();
+my %matches;
+
+my $uri_obj    = URI->new($url);
+my $type       = $uri_obj->query_param('Event_Type');
+my $tour_code  = $uri_obj->query_param('Tour_Code');
+my $team_stage = $uri_obj->query_param('team_stage');
 
 $resp = $ua->get($url);
 
@@ -26,101 +34,76 @@ my $table_xpath = q{/html/body/div/div/table/tr/td/table};
 my $table_node  = $tree->findnodes($table_xpath)->[0];
 foreach my $node ( $table_node->findnodes('tr/td/a') ) {
 	my $text = $node->findvalue('.');
-	if($text =~ /^\s*\d+\s+-\s+\d+\s*$/){
+	if ( $text =~ /^\s*\d+\s+-\s+\d+\s*$/ ) {
 		my $href = $node->findvalue('@href');
-		chomp $href;
-		print "$href\n";
+		$href =~ s/\s*$//g;
+		my $abs_href = URI->new_abs( $href, $url );
+		push( @team_match_urls, $abs_href );
 	}
 }
 
-=cut
+foreach my $team_url (@team_match_urls) {
+	$resp = $ua->get($team_url);
+	if ( $resp && $resp->is_success ) {
+		my $html = $resp->content;
+		$html =~ s/&nbsp;/ /msig;
+		my $tree = new HTML::TreeBuilder::XPath;
+		$tree->parse($html);
 
-my $uri            = URI->new($url);
-my $competition_id =
-  $uri->query_param('Competition_ID');
-my $type = $uri->query_param('s_Event_Type');
-exit if ( !$competition_id );
+		my $head_table_xpath = q{//table[@id='table1']};
+		my $head_table_node  = $tree->findnodes($head_table_xpath)->[0];
+		my $head1            = $head_table_node->findvalue('tr/td[2]');
+		my $head2            = $head_table_node->findvalue('tr/td[3]');
 
+		my $team = "$head1:$head2";
 
+		my $xpath    = q{/html/body/div[1]/table/tr/td/table[1]};
+		my $node     = $tree->findnodes($xpath)->[0];
+		my $match_id = $node->findvalue('tr[2]/td[2]');
+		$match_id =~ s/^[^\d]+//g;
+		my $date = $node->findvalue('tr[3]/td[3]');
+		my $time = $node->findvalue('tr[3]/td[4]');
 
-my $fh;
+		my $date_time = "$date $time";
 
-# open csv file
-my $file = "pingpong_${type}_${competition_id}.csv";
-if ( -e $file ) {
-	open $fh, ">>", $file or die $!;
-}
-else {
-	open $fh, ">", $file or die $!;
-	print $fh chr(65279);
-	my $title = "项目,轮次,时间,运动员1,运动员2,得分1,得分2\n";
-	print $fh $title;
-}
-
-
-
-while ( ( $resp = $ua->get($url) ) && ( $resp->is_success ) ) {
-
-	print "#" x (80), "\n";
-	print "#URL:$url\n";
-	print "#" x (80), "\n";
-
-	my $html = $resp->content;
-	$html =~ s/&nbsp;/ /msig;
-	my $tree = new HTML::TreeBuilder::XPath;
-	$tree->parse($html);
-
-	my $racename_xpath =
-	  q(/html/body/div/table/tr/td/table/tr[2]/td[2]/p/b/font);
-	my $race_title = $tree->findvalue($racename_xpath);
-
-	my ( $race_name, $round ) = $race_title =~ /\s*(.*)\s*-\s*(.*)\s*/;
-
-	$round =~ s/Round of//i;
-
-	my $xpath = q(//table[@id='table1']/tr);
-	my $items = $tree->findnodes($xpath);
-
-	my $i = 1;
-	my ( $player1, $player2, $score1, $score2, $time );
-	for my $item ( $items->get_nodelist() ) {
-		if ( $i % 4 == 1 ) {
-			$player1 =
-			  $item->findvalue('td[1]/font/text()[3]|td[1]/font/text()[6]');
-
-		}
-		if ( $i % 4 == 2 ) {
-			my $sum_score = $item->findvalue('td[2]/font/b/font');
-			( $score1, $score2 ) = $sum_score =~ /(\d+)-(\d+)/;
-			$time = $item->findvalue('td[1]/font[1]/font[1]');
-
-		}
-		if ( $i % 4 == 0 ) {
-			$player2 = $item->findvalue('td[1]/font[1]/font[2]/text()[2]');
-
-			if ( $player1 && $player2 && $time && $score1 ) {
-				my $round_line =
-"$race_name,$round,$time,$player1,$player2,$score1, $score2\n";
-				print "$round_line";
-				print $fh $round_line;
+		$xpath = q{/html/body/div/table/tr/td/table[2]};
+		$node  = $tree->findnodes($xpath)->[0];
+		my $i = 0;
+		$matches{$match_id} = [];
+		foreach my $row_node ( $node->findnodes('tr/td[1]/b/font[text()]') ) {
+			my $player1 = $row_node->findvalue('../../text()');
+			my $player2 = $row_node->findvalue('../../../td[4]/text()');
+			my $score1  = $row_node->findvalue('.');
+			my $score2  = $row_node->findvalue('../../../td[4]/b/font');
+			my $line_team;
+			if ( $i == 0 ) {
+				$line_team = $team;
+				$i++;
 			}
+			else {
+				$line_team = '';
+			}
+
+			my $line = sprintf( "%s,%s,%s,%s,%s,%s,%d,%d",
+				$type, $match_id, $date_time, $line_team, $player1, $player2,
+				$score1, $score2 );
+
+			push @{ $matches{$match_id} }, $line;
 		}
-
-		$i++;
-
 	}
-
-	my $next_round_xpath = q(/html/body/div/table/tr/td/table/tr[3]/td[3]/p/a);
-	my $next_round_node  = $tree->findnodes($next_round_xpath)->[0];
-	my $next_round_href  = $next_round_node->findvalue('@href');
-	my $next_round_text  = $next_round_node->findvalue('.');
-
-	last if ( $next_round_text !~ /Next Round/i );
-
-	my $next_round_url = URI->new_abs( $next_round_href, $url );
-
-	$url = $next_round_url;
-
 }
 
-=cut
+# write to csv file
+my $file = "pingpong_${type}_${tour_code}_${team_stage}.csv";
+open my $fh, ">", $file or die $!;
+print $fh chr(65279);
+my $title =
+  "项目,轮次,时间,团队,运动员1,运动员2,得分1,得分2\n";
+print $fh $title;
+foreach my $match_id ( sort keys %matches ) {
+	my $match_ref = $matches{$match_id};
+	foreach my $line (@$match_ref) {
+		print $fh "$line\n";
+	}
+}
+close $fh;
