@@ -6,29 +6,27 @@ use LWP::UserAgent;
 use HTML::TreeBuilder::XPath;
 use Data::Dumper;
 use URI;
-use UTF8;
 use URI::QueryParam;
+no warnings 'uninitialized';
+no warnings 'utf8';
+
 
 my $url            = $ARGV[0];
 my $uri            = URI->new($url);
-my $competition_id =
-  $uri->query_param('Competition_ID');
-my $type = $uri->query_param('s_Event_Type');
+my $competition_id = $uri->query_param('Competition_ID');
+my $type           = $uri->query_param('s_Event_Type');
 exit if ( !$competition_id );
 
 my $fh;
 
 # open csv file
 my $file = "pingpong_${type}_${competition_id}.csv";
-if ( -e $file ) {
-	open $fh, ">>", $file or die $!;
-}
-else {
-	open $fh, ">", $file or die $!;
-	print $fh chr(65279);
-	my $title = "项目,轮次,时间,运动员1,运动员2,得分1,得分2\n";
-	print $fh $title;
-}
+
+open $fh, ">", $file or die $!;
+binmode $fh;
+print $fh chr(65279);
+my $title = "项目,轮次,时间,运动员1,运动员2,得分1,得分2\n";
+print $fh $title;
 my $ua = LWP::UserAgent->new;
 my $resp;
 
@@ -60,7 +58,6 @@ while ( ( $resp = $ua->get($url) ) && ( $resp->is_success ) ) {
 		if ( $i % 4 == 1 ) {
 			$player1 =
 			  $item->findvalue('td[1]/font/text()[3]|td[1]/font/text()[6]');
-
 		}
 		if ( $i % 4 == 2 ) {
 			my $sum_score = $item->findvalue('td[2]/font/b/font');
@@ -71,7 +68,7 @@ while ( ( $resp = $ua->get($url) ) && ( $resp->is_success ) ) {
 		if ( $i % 4 == 0 ) {
 			$player2 = $item->findvalue('td[1]/font[1]/font[2]/text()[2]');
 
-			if ( $player1 && $player2 && $time && $score1 ) {
+			if ( $player1 && $player2 && $time && ( $score1 >= 0 ) ) {
 				my $round_line =
 "$race_name,$round,$time,$player1,$player2,$score1, $score2\n";
 				print "$round_line";

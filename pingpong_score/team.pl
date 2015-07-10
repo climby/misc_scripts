@@ -7,6 +7,8 @@ use HTML::TreeBuilder::XPath;
 use Data::Dumper;
 use URI;
 use URI::QueryParam;
+no warnings 'uninitialized';  
+no warnings 'utf8';
 
 my $url = $ARGV[0];
 #$url =
