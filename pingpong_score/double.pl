@@ -12,24 +12,32 @@ no warnings 'uninitialized';
 no warnings 'utf8';
 
 my $url = $ARGV[0];
-
+ 
 my $uri            = URI->new($url);
 my $competition_id = $uri->query_param('Competition_ID');
 my $type           = $uri->query_param('s_Event_Type');
 exit if ( !$competition_id );
+
+$type = "MD" if ( $type eq 'MQ' );
+$type = "WD" if ( $type eq 'WQ' );
 
 my $fh;
 
 # open csv file
 my $file = "pingpong_${type}_${competition_id}.csv";
 
-open $fh, ">", $file or die $!;
-binmode $fh;
-print $fh chr(65279);
-my $title =
+if ( -e $file ) {
+	open $fh, ">>", $file or die $!;
+}
+else {
+	open $fh, ">", $file or die $!;
+	binmode $fh;
+	print $fh chr(65279);
+	my $title =
 "项目,轮次,时间,运动员1,运动员2,运动员3,运动员4,得分1,得分2\n";
 
-print $fh $title;
+	print $fh $title;
+}
 my $ua = LWP::UserAgent->new;
 my $resp;
 
@@ -72,7 +80,7 @@ while ( ( $resp = $ua->get($url) ) && ( $resp->is_success ) ) {
 		if ( $i % 4 == 0 ) {
 			$player3 = $item->findvalue('td[1]/font[1]/font[2]/text()[2]');
 			$player4 = $item->findvalue('td[1]/font[1]/font[2]/text()[5]');
-			if ( $time && $player1 && $player3 && ( $score1 >= 0 ) ) {
+			if ( $time && $player1 && $player3 && ( $score1 =~ /\d+/ ) ) {
 				my $round_line =
 "$race_name,$round,$time,$player1,$player2,$player3,$player4,$score1, $score2\n";
 				print "$round_line";
