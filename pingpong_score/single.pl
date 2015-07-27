@@ -10,18 +10,8 @@ use URI::QueryParam;
 no warnings 'uninitialized';
 no warnings 'utf8';
 
-
-sub get_number(){
-	my $str  = shift;
-	my ($number) = $str =~/\s*(\d+)\s*$/;
-	print "number:$number\n";
-	return $number;
-}
-
-
 my $url = $ARGV[0];
-$url =
-q(http://ittf.com/competitions/test/_groups_matches_3.asp?Event_Type=WSP&Competition_ID=2545&rnd=);
+
 my $uri            = URI->new($url);
 my $competition_id = $uri->query_param('Competition_ID');
 my $type           = $uri->query_param('s_Event_Type');
@@ -47,8 +37,7 @@ else {
 	open $fh, ">", $file or die $!;
 	binmode $fh;
 	print $fh chr(65279);
-	my $title = "项目,轮次,时间,运动员1,运动员2,得分1,得分2\n";
-	print $fh $title;
+	
 }
 
 my $ua = LWP::UserAgent->new;
@@ -81,6 +70,7 @@ q(/html/body/div/table/tr/td/p/table/tr[1]/td[2]/div/table/tr[2]/td[position() >
 			}
 		}
 
+		$score_hashref->{'max_column'} = $max_column;
 		my $row_xpath =
 		  q(/html/body/div/table/tr/td/p/table/tr[1]/td[2]/div/table/tr);
 
@@ -108,7 +98,7 @@ q(/html/body/div/table/tr/td/p/table/tr[1]/td[2]/div/table/tr[2]/td[position() >
 					my $value = $score_node->getValue;
 					$line .= ",$value";
 				}
-
+                $line =~  s/-/~/g;
 				push( @{ $score_hashref->{$group} }, $line );
 			}
 
@@ -117,14 +107,32 @@ q(/html/body/div/table/tr/td/p/table/tr[1]/td[2]/div/table/tr[2]/td[position() >
 	}
 
 	# print to csv file
+	my $score_colum = join( ',', ( 1 .. $score_hashref->{max_column} ) );
+	delete $score_hashref->{max_column};
 	foreach my $one_group (
-		sort { &get_number( $a)  < &get_number($b)  }
-		keys %{$score_hashref} )
+		sort { ( $a =~ /(\d+)\s*$/ )[0] <=> ( $b =~ /(\d+)\s*$/ )[0] }
+		keys %{$score_hashref}
+	  )
 	{
-		print "group:$one_group\n";
+
+		if ( $one_group =~ /Group\s+1\s*$/ ) {
+			print  $fh "Begin,$one_group,比赛用名,$score_colum\n";
+		}
+		else {
+			print  $fh ",$one_group,比赛用名,$score_colum\n";
+		}
+
+		foreach my $one_row ( @{ $score_hashref->{$one_group} } ) {
+			print $fh  "$one_row\n";
+		}
+		print $fh "\n\n";
 	}
 }
 else {
+	
+	my $title = "项目,轮次,时间,运动员1,运动员2,得分1,得分2\n";
+    print $fh $title;
+    
 	while ( ( $resp = $ua->get($url) ) && ( $resp->is_success ) ) {
 
 		print "#" x (80), "\n";
