@@ -98,7 +98,7 @@ q(/html/body/div/table/tr/td/p/table/tr[1]/td[2]/div/table/tr[2]/td[position() >
 					my $value = $score_node->getValue;
 					$line .= ",$value";
 				}
-                $line =~  s/-/~/g;
+                $line =~  s/-/:/g;
 				push( @{ $score_hashref->{$group} }, $line );
 			}
 
@@ -130,8 +130,10 @@ q(/html/body/div/table/tr/td/p/table/tr[1]/td[2]/div/table/tr[2]/td[position() >
 }
 else {
 	
-	my $title = "项目,轮次,时间,运动员1,运动员2,得分1,得分2\n";
+	my $title = "BeginTT,淘汰赛,,,\n";
     print $fh $title;
+    
+    my $match_name = '';
     
 	while ( ( $resp = $ua->get($url) ) && ( $resp->is_success ) ) {
 
@@ -150,7 +152,7 @@ else {
 
 		my ( $race_name, $round ) = $race_title =~ /\s*(.*)\s*-\s*(.*)\s*/;
 
-		$round =~ s/Round of//i;
+		#$round =~ s/Round of//i;
 
 		my $xpath = q(//table[@id='table1']/tr);
 		my $items = $tree->findnodes($xpath);
@@ -172,9 +174,11 @@ else {
 				$player2 = $item->findvalue('td[1]/font[1]/font[2]/text()[2]');
 
 				if ( $player1 && $player2 && $time && ( $score1 =~ /\d+/ ) ) {
-					my $round_line =
-"$race_name,$round,$time,$player1,$player2,$score1, $score2\n";
-					print "$round_line";
+					my $round_line =",,$player1,${score1}:${score2},$player2\n";
+					if($match_name ne $round){
+						$match_name = $round;
+						print $fh ",$match_name,,,\n";
+					}
 					print $fh $round_line;
 				}
 			}
