@@ -11,17 +11,18 @@ no warnings 'uninitialized';
 no warnings 'utf8';
 
 my $url = $ARGV[0];
-
 my $uri            = URI->new($url);
-my $competition_id = $uri->query_param('Competition_ID');
-my $type           = $uri->query_param('s_Event_Type');
-my $group_flag     = 0;
+my $competition_id = $uri->query_param('Competition_ID')
+  || $uri->query_param('competition_ID');
+my $type       = $uri->query_param('s_Event_Type');
+my $group_flag = 0;
 if ( $uri->query_param('Event_Type') ) {
 	$group_flag = 1;
 	$type       = $uri->query_param('Event_Type');
 }
 
 my ($type_str) = $type =~ /(\w{2})\w*/;
+my $qualification = 1  if $type =~ /Q/i;
 
 exit if ( !$competition_id );
 
@@ -37,7 +38,7 @@ else {
 	open $fh, ">", $file or die $!;
 	binmode $fh;
 	print $fh chr(65279);
-	
+
 }
 
 my $ua = LWP::UserAgent->new;
@@ -98,7 +99,7 @@ q(/html/body/div/table/tr/td/p/table/tr[1]/td[2]/div/table/tr[2]/td[position() >
 					my $value = $score_node->getValue;
 					$line .= ",$value";
 				}
-                $line =~  s/-/:/g;
+				$line =~ s/-/:/g;
 				push( @{ $score_hashref->{$group} }, $line );
 			}
 
@@ -116,25 +117,26 @@ q(/html/body/div/table/tr/td/p/table/tr[1]/td[2]/div/table/tr[2]/td[position() >
 	{
 
 		if ( $one_group =~ /Group\s+1\s*$/ ) {
-			print  $fh "Begin,$one_group,比赛用名,$score_colum\n";
+			print $fh "Begin,$one_group,比赛用名,$score_colum\n";
 		}
 		else {
-			print  $fh ",$one_group,比赛用名,$score_colum\n";
+			print $fh ",$one_group,比赛用名,$score_colum\n";
 		}
 
 		foreach my $one_row ( @{ $score_hashref->{$one_group} } ) {
-			print $fh  "$one_row\n";
+			print $fh "$one_row\n";
 		}
 		print $fh "\n\n";
 	}
 }
 else {
-	
-	my $title = "BeginTT,淘汰赛,,,\n";
-    print $fh $title;
-    
-    my $match_name = '';
-    
+
+    my $category = $qualification ? '预选赛' : '淘汰赛';
+	my $title = "BeginTT,$category,,,\n";
+	print $fh $title;
+
+	my $match_name = '';
+
 	while ( ( $resp = $ua->get($url) ) && ( $resp->is_success ) ) {
 
 		print "#" x (80), "\n";
@@ -174,8 +176,9 @@ else {
 				$player2 = $item->findvalue('td[1]/font[1]/font[2]/text()[2]');
 
 				if ( $player1 && $player2 && $time && ( $score1 =~ /\d+/ ) ) {
-					my $round_line =",,$player1,${score1}:${score2},$player2\n";
-					if($match_name ne $round){
+					my $round_line =
+					  ",,$player1,${score1}:${score2},$player2\n";
+					if ( $match_name ne $round ) {
 						$match_name = $round;
 						print $fh ",$match_name,,,\n";
 					}

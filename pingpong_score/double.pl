@@ -12,10 +12,11 @@ no warnings 'uninitialized';
 no warnings 'utf8';
 
 my $url = $ARGV[0];
- 
+
 my $uri            = URI->new($url);
-my $competition_id = $uri->query_param('Competition_ID');
-my $type           = $uri->query_param('s_Event_Type');
+my $competition_id = $uri->query_param('Competition_ID')
+  || $uri->query_param('competition_ID');
+my $type = $uri->query_param('s_Event_Type');
 exit if ( !$competition_id );
 
 $type = "MD" if ( $type eq 'MQ' );
