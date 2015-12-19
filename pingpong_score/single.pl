@@ -11,6 +11,7 @@ no warnings 'uninitialized';
 no warnings 'utf8';
 
 my $url = $ARGV[0];
+#$url = q{http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=WD&Competition_ID=2280&rnd=16};
 my $uri            = URI->new($url);
 my $competition_id = $uri->query_param('Competition_ID')
   || $uri->query_param('competition_ID');
@@ -43,9 +44,12 @@ else {
 
 my $ua = LWP::UserAgent->new;
 my $resp;
+my $delay = 0 ;
 if ($group_flag) {
 	my $score_hashref = {};
 	if ( ( $resp = $ua->get($url) ) && ( $resp->is_success ) ) {
+	    # reset delay
+	    $delay = 0 ;
 		print "#" x (80), "\n";
 		print "#URL:$url\n";
 		print "#" x (80), "\n";
@@ -105,6 +109,11 @@ q(/html/body/div/table/tr/td/p/table/tr[1]/td[2]/div/table/tr[2]/td[position() >
 
 		}
 
+	}
+	else {
+	   print "Get status:". $resp->status_line.
+	   $delay += 15;
+	   sleep $delay;
 	}
 
 	# print to csv file
@@ -201,5 +210,6 @@ else {
 		my $next_round_url = URI->new_abs( $next_round_href, $url );
 
 		$url = $next_round_url;
+		sleep 1;
 	}
 }

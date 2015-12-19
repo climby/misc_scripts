@@ -13,7 +13,7 @@ no warnings 'utf8';
 my $url = $ARGV[0];
 #$url =
 #q{http://ittf.com/ittf_team_events/2ndstage/teams_2nd_stage_16_positions_wttc_print_2.asp?Tour_Code=2278&Event_Type=mstm2&team_stage=112};
-
+#q{http://ittf.com/ittf_team_events/2ndstage/teams_2nd_stage_16_positions_wttc_print_3.asp?Tour_Code=2278&Event_Type=mstm2&team_stage=7384};
 my $ua = LWP::UserAgent->new;
 my $resp;
 my @team_match_urls = ();
@@ -44,9 +44,12 @@ foreach my $node ( $table_node->findnodes('tr/td/a') ) {
 	}
 }
 
+#print Dumper(\@team_match_urls);
+my $delay =0;
 foreach my $team_url (@team_match_urls) {
 	$resp = $ua->get($team_url);
 	if ( $resp && $resp->is_success ) {
+	    $delay = 0 ;
 		my $html = $resp->content;
 		$html =~ s/&nbsp;/ /msig;
 		my $tree = new HTML::TreeBuilder::XPath;
@@ -63,6 +66,7 @@ foreach my $team_url (@team_match_urls) {
 		my $node     = $tree->findnodes($xpath)->[0];
 		my $match_id = $node->findvalue('tr[2]/td[2]');
 		$match_id =~ s/^[^\d]+//g;
+		print "match id:$match_id\n";
 		my $date = $node->findvalue('tr[3]/td[3]');
 		my $time = $node->findvalue('tr[3]/td[4]');
 
@@ -93,7 +97,13 @@ foreach my $team_url (@team_match_urls) {
 			push @{ $matches{$match_id} }, $line;
 		}
 	}
+	else {
+	  print "Get status:" . $resp->status_line;
+	  $delay += 15;
+	  sleep $delay;
+	}
 }
+
 
 # write to csv file
 my $file = "pingpong_${type}_${tour_code}_${team_stage}.csv";
