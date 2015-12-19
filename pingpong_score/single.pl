@@ -210,6 +210,5 @@ else {
 		my $next_round_url = URI->new_abs( $next_round_href, $url );
 
 		$url = $next_round_url;
-		sleep 1;
 	}
 }

@@ -7,8 +7,84 @@ use URI;
 use URI::QueryParam;
 use LWP;
 
-my $START_ID = 2265;
-my $END_ID   = 2265;
+#------------------------------------------------------------------------------
+#
+# Call handler to fetch match score and write file according url characters
+#
+#-----------------------------------------------------------------------------
+sub write_score_file {
+    my $url = shift;
+
+    return if ( !$url );
+
+    my $team_flag = 0;
+    $team_flag = 1 if ( $url =~ m{/2ndstage/}i );
+    my $uri_obj = URI->new($url);
+    my $type    = $uri_obj->query_param('s_Event_Type')
+        || $uri_obj->query_param('Event_Type');
+    $type = $type ? $type : '';
+
+    if ($team_flag) {
+        print "get team race:$url\n";
+        open my $team_cmd_fh, "perl team.pl '$url'|";
+        while ( my $output_line = <$team_cmd_fh> ) {
+            print "[team]:" . $output_line;
+        }
+    } elsif ($type) {
+
+        if ( $type =~ /^(M|W)S(P|Q)?$/ ) {
+            print "get single race:$url\n";
+            open my $single_cmd_fh, "perl single.pl  '$url' | ";
+            while ( my $output_line = <$single_cmd_fh> ) {
+                print "[single]:" . $output_line;
+            }
+        }
+        if ( $type =~ /^(M|W)(D|Q)$/ ) {
+            print "get double race:$url\n";
+            open my $double_cmd_fh, "perl double.pl '$url' |";
+            while ( my $output_line = <$double_cmd_fh> ) {
+                print "[double]:" . $output_line;
+            }
+        }
+    }
+
+}
+
+#------------------------------------------------------------------------------
+# print help
+#------------------------------------------------------------------------------
+sub print_help {
+    print <<"TXT";
+  
+Usage: 
+   $0  <start Competition_ID>  [end Competition_ID]
+
+   start Competition_ID  mandatory   From this competition ID to scrape web page
+   end Competition_ID    optional    scape data from the start competition ID
+                                     to the end competition ID
+TXT
+}
+
+#------------------------------------------------------------------------------
+# main start
+#------------------------------------------------------------------------------
+my $START_ID;
+my $END_ID;
+
+# get command line arguments
+
+if ( @ARGV < 1 ) {
+    print_help();
+    exit();
+}
+
+$START_ID = $ARGV[0];
+$END_ID = $ARGV[1] ? $ARGV[1] : $ARGV[0];
+
+if ( $START_ID !~ /^\d+$/ or $END_ID !~ /^\d+$/ ) {
+    print_help();
+    die "ERROR: invalid competitin ID!";
+}
 
 my $ua = LWP::UserAgent->new();
 
@@ -64,41 +140,12 @@ close $fh;
 my $hash_ref = {};
 open $fh, "<", $file or die $!;
 while ( my $line = <$fh> ) {
+    chomp $line;
     if ( exists $hash_ref->{$line} ) {
         next;
     } else {
         $hash_ref->{$line} = 1;
     }
-    my $team_flag = 0;
-    chomp $line;
-    $team_flag = 1 if ( $line =~ m{/2ndstage/}i );
-    my $uri_obj = URI->new($line);
-    my $type    = $uri_obj->query_param('s_Event_Type')
-        || $uri_obj->query_param('Event_Type');
-    $type = $type ? $type : '';
-    if ($team_flag) {
-        print "get team race:$line\n";
-        open my $team_cmd_fh, "perl team.pl '$line'|";
-        while ( my $output_line = <$team_cmd_fh> ) {
-            print "[team race handler]:" . $output_line;
-        }
-    } elsif ($type) {
-
-        if ( $type =~ /^(M|W)S(P|Q)?$/ ) {
-            print "get single race:$line\n";
-            open my $single_cmd_fh, "perl single.pl  '$line' | ";
-            while ( my $output_line = <$single_cmd_fh> ) {
-                print "[single race handler]:" . $output_line;
-            }
-        }
-        if ( $type =~ /^(M|W)(D|Q)$/ ) {
-            print "get double race:$line\n";
-            open my $double_cmd_fh, "perl double.pl '$line' |";
-            while ( my $output_line = <$double_cmd_fh> ) {
-                print "[double race handler]:" . $output_line;
-            }
-        }
-    }
-
+    write_score_file($line);
 }
 

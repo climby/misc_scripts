@@ -6,3 +6,10 @@ http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=WD&Competi
 http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=MD&Competition_ID=2265&rnd=16
 http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=WS&Competition_ID=2265&rnd=32
 http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=MS&Competition_ID=2265&rnd=64
+http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=MSQ&Competition_ID=2266&rnd=16
+http://ittf.com/competitions/test/_groups_matches_3.asp?Event_Type=WSP&Competition_ID=2266&rnd=
+http://ittf.com/competitions/test/_groups_matches_3.asp?Event_Type=MSP&Competition_ID=2266&rnd=
+http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=WD&Competition_ID=2266&rnd=16
+http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=MD&Competition_ID=2266&rnd=16
+http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=WS&Competition_ID=2266&rnd=32
+http://ittf.com/competitions/test/matches_per_round1.asp?s_Event_Type=MS&Competition_ID=2266&rnd=32
