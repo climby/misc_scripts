@@ -56,7 +56,8 @@ sub write_score_file {
 sub print_help {
     print <<"TXT";
   
-Usage: 
+Usage:
+------------------------------------------------------------------------------- 
    $0  <start Competition_ID>  [end Competition_ID]
 
    start Competition_ID  mandatory   From this competition ID to scrape web page
